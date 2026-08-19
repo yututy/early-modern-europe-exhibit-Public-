@@ -58,7 +58,7 @@ npm run build
 | Framework preset | Vite（或 None） |
 | Root directory | `web` |
 | Build command | `npm run build` |
-| Build output directory | `dist` |
+| Build output directory | `dist`（若界面是 Deploy command：`npx wrangler deploy`，需仓库里有 `web/wrangler.toml`） |
 
 4. Deploy 完成后得到 `https://<项目名>.pages.dev`，可在 Pages 设置里改项目名，并可选绑定自定义域名。  
 5. 之后每次 `git push` 到连接的分支，会自动重新构建上线。
