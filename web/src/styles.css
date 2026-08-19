@@ -1031,7 +1031,7 @@ button {
 }
 
 .ledger-journal-item.is-quest:not(.is-active) .ledger-ref::after {
-  content: " ·进";
+  content: " ·in";
   font-size: 0.75em;
   color: var(--gold-soft);
 }

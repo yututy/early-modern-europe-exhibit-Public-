@@ -6,8 +6,8 @@
 export const LEDGER_UNITS = {
   knight: {
     id: "knight",
-    title: "骑士",
-    blurb: "战力高，吃钱吃封地；后期物价一涨就雇不起。",
+    title: "Knight",
+    blurb: "High power, but costly in coin and fiefs. Once prices rise, you cannot afford them.",
     src: "/military/ledger_unit_knight.jpg",
     power: 12,
     cost: 24,
@@ -15,8 +15,8 @@ export const LEDGER_UNITS = {
   },
   pike: {
     id: "pike",
-    title: "长矛手",
-    blurb: "前排墙，最多 4 名。对面有骑士时每矛 +4；纯矛扛不住后期火力缺口。",
+    title: "Pike",
+    blurb: "Front-line wall, max 4. Each pike +4 when the enemy has knights. Pike alone cannot cover the later firepower gap.",
     src: "/military/ledger_unit_pike.jpg",
     power: 6,
     cost: 9,
@@ -24,8 +24,8 @@ export const LEDGER_UNITS = {
   },
   shot: {
     id: "shot",
-    title: "火枪手",
-    blurb: "打步兵强（战力 9）；对面有骑士时掉到 6——要靠矛阵扛骑。",
+    title: "Shot",
+    blurb: "Strong against infantry (power 9); drops to 6 if the enemy has knights — pike must hold the horse.",
     src: "/military/ledger_unit_shot.jpg",
     power: 9,
     cost: 10,
@@ -37,21 +37,21 @@ export const LEDGER_ENEMIES = {
   levy: {
     kind: "levy",
     src: "/military/anim/levy_walk_01.png?v=cut11",
-    alt: "民兵",
+    alt: "Levy",
     faceLeft: true,
     power: 3,
   },
   pike: {
     kind: "pike",
     src: "/military/anim/pike_walk_01.png?v=cut11",
-    alt: "长矛手",
+    alt: "Pike",
     faceLeft: false,
     power: 5,
   },
   knight: {
     kind: "knight",
     src: "/military/anim/knight_walk_01.png?v=cut11",
-    alt: "骑士",
+    alt: "Knight",
     faceLeft: false,
     power: 10,
   },
@@ -77,41 +77,41 @@ export const LEDGER_ANIM = {
 export const LEDGER_WAVES = [
   {
     id: 1,
-    title: "第一波 · 民兵",
-    briefing: "对面：民兵 ×3。拖骑士上阵即可。打赢会入账；后面敌军更强、物价会涨。",
+    title: "Wave 1 · Levy",
+    briefing: "Facing: levy ×3. Drag a knight onto the field. A win pays into the treasury; later enemies grow stronger, and prices rise.",
     threat: 10,
     enemies: [{ kind: "levy", count: 3 }],
     unlock: ["knight"],
     inflation: 1,
     income: 28,
-    hint: "先拖 1 名骑士出战。",
+    hint: "Start by committing 1 knight.",
   },
   {
     id: 2,
-    title: "第二波 · 长矛手",
-    briefing: "对面：长矛手 ×4。长矛手已解锁（前排，最多 4 名）。可混一枪。",
+    title: "Wave 2 · Pike",
+    briefing: "Facing: pike ×4. Pike is now unlocked (front rank, max 4). You may mix in one shot.",
     threat: 16,
     enemies: [{ kind: "pike", count: 4 }],
     unlock: ["knight", "pike"],
     inflation: 1,
     income: 34,
-    hint: "例：3 矛 + 1 枪，或 1 骑 + 2 矛。",
+    hint: "E.g. 3 pike + 1 shot, or 1 knight + 2 pike.",
   },
   {
     id: 3,
-    title: "第三波 · 长矛手",
-    briefing: "对面：长矛手 ×5。火枪已解锁——打步兵更强。纯 4 矛战力不够。",
+    title: "Wave 3 · Pike",
+    briefing: "Facing: pike ×5. Shot is unlocked — stronger against infantry. Four pike alone will not hold.",
     threat: 20,
     enemies: [{ kind: "pike", count: 5 }],
     unlock: ["knight", "pike", "shot"],
     inflation: 1.15,
     income: 40,
-    hint: "例：3 火枪。下一波有敌骑，别只堆枪。",
+    hint: "E.g. 3 shot. Enemy cavalry comes next — do not stack shot alone.",
   },
   {
     id: 4,
-    title: "第四波 · 矛骑混编",
-    briefing: "对面：长矛手 ×4 + 骑士 ×1。有敌骑：矛每名 +4，火枪战力降为 6。",
+    title: "Wave 4 · Pike and horse",
+    briefing: "Facing: pike ×4 + knight ×1. Against cavalry: each pike +4; shot power drops to 6.",
     threat: 28,
     enemies: [
       { kind: "pike", count: 4 },
@@ -120,13 +120,13 @@ export const LEDGER_WAVES = [
     unlock: ["knight", "pike", "shot"],
     inflation: 1.4,
     income: 46,
-    hint: "例：4 矛 + 1 枪。纯火枪要堆很多才够。",
+    hint: "E.g. 4 pike + 1 shot. Shot alone needs a large number to hold.",
     inflateFx: true,
   },
   {
     id: 5,
-    title: "第五波 · 重兵压境",
-    briefing: "对面：长矛手 ×3 + 骑士 ×2。入账赶不上骑士涨价；矛枪混编撑过最后一波。",
+    title: "Wave 5 · Heavy pressure",
+    briefing: "Facing: pike ×3 + knight ×2. Income cannot keep up with knight prices; mix pike and shot to last the final wave.",
     threat: 32,
     enemies: [
       { kind: "pike", count: 3 },
@@ -135,7 +135,7 @@ export const LEDGER_WAVES = [
     unlock: ["knight", "pike", "shot"],
     inflation: 1.65,
     income: 50,
-    hint: "例：4 矛 + 1 枪。纯枪买不起够用的人数。",
+    hint: "E.g. 4 pike + 1 shot. Shot alone cannot buy enough men.",
     inflateFx: true,
   },
 ];
@@ -213,20 +213,20 @@ export function mountLedgerGame(stage, opts = {}) {
 
   const unitGate = (id) => {
     if (!wave().unlock.includes(id)) {
-      return { ok: false, reason: "未解锁" };
+      return { ok: false, reason: "Locked" };
     }
     if (id === "knight" && knightLockedByNobles()) {
-      return { ok: false, reason: "贵族抵制" };
+      return { ok: false, reason: "Nobles resist" };
     }
     if (id === "pike" && field.pike >= 4) {
-      return { ok: false, reason: "矛阵已满(4)" };
+      return { ok: false, reason: "Pike line full (4)" };
     }
     const nextCost = fieldCost() + priceOf(id);
     if (nextCost > treasury) {
-      return { ok: false, reason: "国库不够" };
+      return { ok: false, reason: "Treasury too low" };
     }
     if (fieldCount() >= 8) {
-      return { ok: false, reason: "编制已满" };
+      return { ok: false, reason: "Roster full" };
     }
     return { ok: true, reason: "" };
   };
@@ -259,16 +259,16 @@ export function mountLedgerGame(stage, opts = {}) {
   const introHtml = () => `
     <div class="led-intro">
       <div class="led-intro-art">
-        <img src="/military/ledger_cover.jpg" alt="摊开的战争账本" />
+        <img src="/military/ledger_cover.jpg" alt="An open war ledger" />
       </div>
       <div class="led-intro-copy">
-        <p class="aside-label">第二局 · 可选</p>
-        <h3 class="mil-play-title">王国的账本</h3>
-        <p class="mil-play-brief">五波仗。拖兵上阵，战力够就打赢。打完扣编制费，打赢另有入账；打输还要多扣应急款。物价会涨——骑士越来越雇不起，要靠矛枪混编。</p>
-        <p class="mil-play-hint">长矛克敌骑（有敌骑时每矛 +3 战力）；火枪单兵高但对骑无加成。金币不够不能加兵。</p>
+        <p class="aside-label">Game II · Optional</p>
+        <h3 class="mil-play-title">The King's Ledger</h3>
+        <p class="mil-play-brief">Five waves. Drag troops onto the field; if your power is enough, you hold. After the clash you pay the roster cost. A win also brings income; a loss takes an extra emergency levy. Prices will rise — knights grow too dear, so mix pike and shot.</p>
+        <p class="mil-play-hint">Pike counters enemy horse (each pike +4 power when cavalry is present). Shot hits hard per man but gains nothing against cavalry. You cannot add troops without gold.</p>
         <div class="mil-result-actions">
-          <button type="button" class="btn" data-led-begin>开始五波</button>
-          <button type="button" class="btn btn-ghost" data-led-back>${opts.backLabel || "离开"}</button>
+          <button type="button" class="btn" data-led-begin>Begin five waves</button>
+          <button type="button" class="btn btn-ghost" data-led-back>${opts.backLabel || "Leave"}</button>
         </div>
       </div>
     </div>
@@ -281,13 +281,13 @@ export function mountLedgerGame(stage, opts = {}) {
     const combat = unitCombatPower(id);
     const matchNote =
       id === "pike" && enemyHasKnights() && gate.ok
-        ? " · 对骑+4"
+        ? " · +4 vs cavalry"
         : id === "shot" && enemyHasKnights() && gate.ok
-          ? " · 见骑6"
+          ? " · 6 vs cavalry"
           : "";
     const nobleTax =
       id === "knight" && nobleKnightMult() > 1
-        ? ` · 贵族加价×${nobleKnightMult().toFixed(2)}`
+        ? ` · noble surcharge ×${nobleKnightMult().toFixed(2)}`
         : "";
     return `
       <button type="button" class="led-unit ${gate.ok ? "" : "is-locked"} ${wave().inflateFx ? "is-inflating" : ""}"
@@ -296,7 +296,7 @@ export function mountLedgerGame(stage, opts = {}) {
         <strong>${u.title}</strong>
         <span>${
           gate.ok
-            ? `${price} 金 · 战力 ${combat}${matchNote}${nobleTax}`
+            ? `${price} gold · power ${combat}${matchNote}${nobleTax}`
             : gate.reason
         }</span>
       </button>`;
@@ -325,7 +325,7 @@ export function mountLedgerGame(stage, opts = {}) {
             id,
             u.title,
             "you",
-            `data-remove="${id}" title="点一下撤回"`,
+            `data-remove="${id}" title="Click to recall"`,
             false,
             unitCombatPower(id),
             `you-${id}-${n}`
@@ -485,47 +485,47 @@ export function mountLedgerGame(stage, opts = {}) {
     const afterWin = Math.max(0, treasury - cost + income);
     const afterLose = Math.max(0, treasury - cost - loseExtra);
     const lastBill = lastResult?.ledgerNote
-      ? `<p class="led-last-bill">上波结算：${lastResult.ledgerNote}</p>`
+      ? `<p class="led-last-bill">Last wave settled: ${lastResult.ledgerNote}</p>`
       : waveIndex === 0
-        ? `<p class="led-last-bill">开局国库 100。胜：扣编制费后入账；负：编制费 + 应急，无入账。</p>`
+        ? `<p class="led-last-bill">Opening treasury 100. Win: pay roster cost, then take income. Loss: roster cost + emergency, no income.</p>`
         : "";
     return `
       <div class="led-play ${w.inflateFx ? "is-inflating" : ""}">
         <header class="led-head">
-          <p class="aside-label">战争与经济 · ${w.id} / ${LEDGER_WAVES.length}</p>
+          <p class="aside-label">War and Economy · ${w.id} / ${LEDGER_WAVES.length}</p>
           <h3 class="mil-play-title">${w.title}</h3>
         </header>
-        <section class="led-books led-books-top" aria-label="账本">
+        <section class="led-books led-books-top" aria-label="Ledger">
           <div class="led-books-meters">
-            ${meter("国库", treasury, "is-gold")}
-            ${meter("贵族满意度", nobles, "is-noble")}
+            ${meter("Treasury", treasury, "is-gold")}
+            ${meter("Noble favour", nobles, "is-noble")}
             ${lastBill}
           </div>
           <div class="led-preview-card ${okLikely ? "is-ok" : "is-risk"}">
-            <p class="led-preview">本波战力 <strong>${power}</strong> <span>/ 对面 ${foePower}</span>
-              · 花费 <strong class="${w.inflateFx ? "is-tick" : ""}">${cost}</strong>
-              <span>· 胜后约 ${afterWin}（入账 +${income}）</span>
-              ${okLikely ? "" : `<span>· 败后约 ${afterLose}</span>`}</p>
+            <p class="led-preview">This wave: power <strong>${power}</strong> <span>/ facing ${foePower}</span>
+              · cost <strong class="${w.inflateFx ? "is-tick" : ""}">${cost}</strong>
+              <span>· after a win, about ${afterWin} (income +${income})</span>
+              ${okLikely ? "" : `<span>· after a loss, about ${afterLose}</span>`}</p>
             <p class="led-preview-note">${
               cost > treasury
-                ? "花费已超过国库"
+                ? "Cost exceeds the treasury"
                 : okLikely
-                  ? `大概扛得住 · 扣 ${cost} 后入账 +${income}`
-                  : `战力不够 · 败了扣 ${cost} + 应急 ${loseExtra}，无入账`
+                  ? `Likely to hold · pay ${cost}, then income +${income}`
+                  : `Power too low · a loss costs ${cost} + emergency ${loseExtra}, no income`
             }</p>
           </div>
         </section>
         <div class="led-board">
-          <aside class="led-roster" aria-label="可派单位">
-            <p class="led-kicker">编制</p>
+          <aside class="led-roster" aria-label="Available units">
+            <p class="led-kicker">Order of battle</p>
             ${UNIT_IDS.map(unitChip).join("")}
             <p class="mil-play-tip">${w.hint}${
               knightLockedByNobles()
-                ? " 贵族已抵制骑士。"
+                ? " Nobles have blocked knights."
                 : nobleKnightMult() > 1
-                  ? " 贵族不满，骑士更贵。"
+                  ? " Nobles are discontent; knights cost more."
                   : ""
-            }${treasury < 40 ? " 国库偏紧，看好花费。" : ""}</p>
+            }${treasury < 40 ? " Treasury is tight — watch the cost." : ""}</p>
           </aside>
           <div class="led-field${clashing ? " is-clashing" : ""}" data-drop-field>
             <div class="led-field-bg">
@@ -533,19 +533,19 @@ export function mountLedgerGame(stage, opts = {}) {
             </div>
             <div class="led-ranks" aria-hidden="true">
               <div class="led-rank is-you">
-                ${playerSprites() || `<p class="led-field-empty">拖到这边站队 · 火枪自动后排横行</p>`}
+                ${playerSprites() || `<p class="led-field-empty">Drag here to form ranks · shot auto-lines in the rear</p>`}
               </div>
               <div class="led-rank is-foe">
                 ${enemySprites()}
               </div>
             </div>
-            <p class="led-pressure">对面战力 ${foePower} · 编制压力 ${w.threat}</p>
+            <p class="led-pressure">Facing power ${foePower} · roster pressure ${w.threat}</p>
           </div>
         </div>
         <div class="mil-result-actions">
-          <button type="button" class="btn" data-led-fight ${fieldCount() && !clashing && cost <= treasury ? "" : "disabled"}>${clashing ? "交锋中" : "出战"}</button>
-          <button type="button" class="btn btn-ghost" data-led-clear ${fieldCount() ? "" : "disabled"}>清空战场</button>
-          <button type="button" class="btn btn-ghost" data-led-surrender ${clashing ? "disabled" : ""}>认输</button>
+          <button type="button" class="btn" data-led-fight ${fieldCount() && !clashing && cost <= treasury ? "" : "disabled"}>${clashing ? "Clashing" : "March"}</button>
+          <button type="button" class="btn btn-ghost" data-led-clear ${fieldCount() ? "" : "disabled"}>Clear the field</button>
+          <button type="button" class="btn btn-ghost" data-led-surrender ${clashing ? "disabled" : ""}>Concede</button>
         </div>
       </div>
     `;
@@ -557,43 +557,43 @@ export function mountLedgerGame(stage, opts = {}) {
     const collapsed = r.collapse;
     const failTitle =
       collapsed === "bust"
-        ? "本局失败 · 国库空了"
+        ? "Defeat · Treasury empty"
         : collapsed === "revolt"
-          ? "本局失败 · 贵族翻脸了"
+          ? "Defeat · The nobles have turned"
           : null;
     const defeatLines = !r.held
       ? `<ul class="led-outcome-list">
-          <li>编制费照扣（本波已付 ${Math.abs(r.costPaid ?? 0)}）</li>
-          <li>另扣战败应急款 ${r.emergencyPaid ?? 0}（无入账）</li>
-          <li>贵族满意度 ${r.nobleDelta >= 0 ? "+" : ""}${r.nobleDelta}：太低则骑士涨价，再低锁死</li>
+          <li>Roster cost still charged (paid this wave: ${Math.abs(r.costPaid ?? 0)})</li>
+          <li>Plus a defeat emergency levy of ${r.emergencyPaid ?? 0} (no income)</li>
+          <li>Noble favour ${r.nobleDelta >= 0 ? "+" : ""}${r.nobleDelta}: too low and knights rise in price; lower still and they lock</li>
           <li>${
             collapsed === "bust"
-              ? "国库归零，没法再雇兵，本局到此结束。"
+              ? "The treasury is empty; you cannot hire more troops. This game ends here."
               : collapsed === "revolt"
-                ? "贵族掉穿，骑士编制不听调令，本局到此结束。"
-                : "若国库或贵族撑不住，会提前收束，进不完五波"
+                ? "Noble favour has collapsed; the knight roster will not take orders. This game ends here."
+                : "If the treasury or the nobles cannot hold, the game closes early — you will not finish five waves"
           }</li>
         </ul>`
       : "";
     return `
       <div class="led-result ${r.held ? "is-win" : "is-miss"}${collapsed ? " is-fail" : ""}">
-        <p class="aside-label">第 ${w.id} 波${
-          failTitle ? " · 失败" : r.held ? "扛住了" : "顶不住"
+        <p class="aside-label">Wave ${w.id}${
+          failTitle ? " · Defeat" : r.held ? " · Held" : " · Could not hold"
         }</p>
         <h3 class="mil-play-title">${
           failTitle ||
-          (r.held ? "这一仗打过去了" : "编制没顶住")
+          (r.held ? "This clash is over" : "The roster did not hold")
         }</h3>
         ${
           collapsed
-            ? `<p class="mil-play-brief">本局结束。可重新开始，或先看收束小结。</p>`
+            ? `<p class="mil-play-brief">This game is over. Restart, or view the closing note first.</p>`
             : ""
         }
         ${defeatLines}
         <div class="led-result-books">
-          ${meter("国库", treasury, "is-gold")}
-          ${meter("贵族满意度", nobles, "is-noble")}
-          <p class="led-delta">本波变化：国库 <strong>${r.treasuryDelta}</strong> · 贵族 <strong>${
+          ${meter("Treasury", treasury, "is-gold")}
+          ${meter("Noble favour", nobles, "is-noble")}
+          <p class="led-delta">This wave: Treasury <strong>${r.treasuryDelta}</strong> · Nobles <strong>${
             r.nobleDelta >= 0 ? "+" : ""
           }${r.nobleDelta}</strong></p>
           <p class="led-delta-detail">${r.ledgerNote || ""}</p>
@@ -601,10 +601,10 @@ export function mountLedgerGame(stage, opts = {}) {
         <div class="mil-result-actions">
           ${
             collapsed
-              ? `<button type="button" class="btn" data-led-again>重新开始</button>
-                 <button type="button" class="btn btn-ghost" data-led-next>看看收束</button>`
+              ? `<button type="button" class="btn" data-led-again>Play again</button>
+                 <button type="button" class="btn btn-ghost" data-led-next>View the close</button>`
               : `<button type="button" class="btn" data-led-next>${
-                  waveIndex >= LEDGER_WAVES.length - 1 ? "查看结局" : "下一波"
+                  waveIndex >= LEDGER_WAVES.length - 1 ? "See the ending" : "Next wave"
                 }</button>`
           }
         </div>
@@ -627,43 +627,43 @@ export function mountLedgerGame(stage, opts = {}) {
     if (gaveUp) {
       return {
         fail: true,
-        title: "你认输了",
-        body: "主动收兵，本局结束。换一套更省的编制，再开一局试试。",
+        title: "You conceded",
+        body: "You called the army back. This game is over. Try a leaner roster next time.",
       };
     }
     const kind = endingKind();
     if (kind === "bust") {
       return {
         fail: true,
-        title: "国库先死了",
-        body: "没有钱续编制，仗打不下去了。本局失败——点「再来一局」重新开账。",
+        title: "The treasury died first",
+        body: "No coin left to keep the roster. The war cannot continue. Defeat — tap Play again to open a new ledger.",
       };
     }
     if (kind === "revolt") {
       return {
         fail: true,
-        title: "贵族不干了",
-        body: "骑士编制靠封地与面子养活。满意度掉穿之后唤不动甲骑。本局失败——可以再开一局。",
+        title: "The nobles will not serve",
+        body: "The knight roster lives on fiefs and honour. Once favour collapses, the heavy horse will not come. Defeat — you may start a new game.",
       };
     }
     if (kind === "thin") {
       return {
         fail: false,
-        title: "两条线都瘦了",
-        body: "既没攒下国库，也没稳住贵族。王国还能挨过这一季，但续不起下一场长时间战争。",
+        title: "Both lines ran thin",
+        body: "You neither saved the treasury nor held the nobles. The kingdom can last this season, but not another long war.",
       };
     }
     if (kind === "powder") {
       return {
         fail: false,
-        title: "价码换了人",
-        body: "火枪占比抬起来了。火药改的不只是城墙，还有谁付得起下一仗——骑士不是突然变弱，是贵到撑不起连续战役。",
+        title: "The price changed hands",
+        body: "Shot took a larger share. Powder changed more than walls — it changed who can pay for the next fight. Knights did not suddenly weaken; they grew too dear for a run of campaigns.",
       };
     }
     return {
       fail: false,
-      title: "还在押骑士",
-      body: "编制仍偏旧。短期能打，账本会提醒你：连续战役里，贵兵会先把国库掏空。",
+      title: "Still betting on knights",
+      body: "The roster still leans old. It can fight in the short run. The ledger will remind you: across campaigns, expensive troops empty the treasury first.",
     };
   };
 
@@ -676,23 +676,23 @@ export function mountLedgerGame(stage, opts = {}) {
     return `
       <div class="led-end${copy.fail ? " is-fail" : ""}">
         <p class="aside-label">${
-          copy.fail ? "本局失败" : "收束"
-        } · 国库 ${Math.round(treasury)} · 贵族 ${Math.round(nobles)}</p>
-        ${copy.fail ? `<p class="led-fail-banner">失败 · 可以重新开始</p>` : ""}
+          copy.fail ? "Defeat" : "The close"
+        } · Treasury ${Math.round(treasury)} · Nobles ${Math.round(nobles)}</p>
+        ${copy.fail ? `<p class="led-fail-banner">Defeat · You may start again</p>` : ""}
         <h3 class="mil-play-title">${copy.title}</h3>
         <div class="led-result-books">
-          ${meter("最终国库", treasury, "is-gold")}
-          ${meter("最终贵族满意度", nobles, "is-noble")}
+          ${meter("Final treasury", treasury, "is-gold")}
+          ${meter("Final noble favour", nobles, "is-noble")}
         </div>
-        <svg class="led-chart" viewBox="0 0 ${w} ${h}" role="img" aria-label="骑士与火枪使用率">
+        <svg class="led-chart" viewBox="0 0 ${w} ${h}" role="img" aria-label="Knight and shot usage">
           <path class="is-knight" d="${chartPath(knight, w, h)}" />
           <path class="is-shot" d="${chartPath(shot, w, h)}" />
         </svg>
-        <p class="led-chart-legend"><i class="is-knight"></i> 骑士占比　<i class="is-shot"></i> 火枪占比</p>
+        <p class="led-chart-legend"><i class="is-knight"></i> Knight share　<i class="is-shot"></i> Shot share</p>
         <p class="mil-play-brief">${copy.body}</p>
         <div class="mil-result-actions">
-          <button type="button" class="btn" data-led-again>再来一局</button>
-          <button type="button" class="btn btn-ghost" data-led-back>${opts.backLabel || "离开"}</button>
+          <button type="button" class="btn" data-led-again>Play again</button>
+          <button type="button" class="btn btn-ghost" data-led-back>${opts.backLabel || "Leave"}</button>
         </div>
       </div>
     `;
@@ -768,8 +768,8 @@ export function mountLedgerGame(stage, opts = {}) {
     else if (nobles <= 12) collapse = "revolt";
 
     const ledgerNote = held
-      ? `编制费 −${cost}，入账 +${income}。贵族 ${nobleDelta >= 0 ? "+" : ""}${nobleDelta}。国库 ${beforeT}→${treasury}，贵族 ${beforeN}→${nobles}。`
-      : `编制费 −${cost} + 应急 −${emergency}（无入账）。贵族 ${nobleDelta}。国库 ${beforeT}→${treasury}，贵族 ${beforeN}→${nobles}。`;
+      ? `Roster cost −${cost}, income +${income}. Nobles ${nobleDelta >= 0 ? "+" : ""}${nobleDelta}. Treasury ${beforeT}→${treasury}, nobles ${beforeN}→${nobles}.`
+      : `Roster cost −${cost} + emergency −${emergency} (no income). Nobles ${nobleDelta}. Treasury ${beforeT}→${treasury}, nobles ${beforeN}→${nobles}.`;
 
     lastResult = {
       held,
@@ -796,7 +796,7 @@ export function mountLedgerGame(stage, opts = {}) {
     const btn = stage.querySelector("[data-led-fight]");
     if (btn) {
       btn.disabled = true;
-      btn.textContent = "交锋中";
+      btn.textContent = "Clashing";
     }
     const clearBtn = stage.querySelector("[data-led-clear]");
     if (clearBtn) clearBtn.disabled = true;

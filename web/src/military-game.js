@@ -66,8 +66,8 @@ export function bindMilitaryGame(root, opts = {}) {
       advancedBtn.disabled = !ready;
       advancedBtn.setAttribute("aria-disabled", ready ? "false" : "true");
       advancedBtn.title = ready
-        ? "第二局 · 王国的账本"
-        : "先通关对撞局后再开放";
+        ? "Game two · The kingdom's ledger"
+        : "Unlocks after Clash is cleared";
     }
   };
 
@@ -79,8 +79,8 @@ export function bindMilitaryGame(root, opts = {}) {
 
   const idleHtml = () => `
     <div class="mil-play-idle">
-      <p class="mil-play-idle-title">对撞局 · 选打法</p>
-      <p class="mil-play-hint">四幕短局 · 点开始</p>
+      <p class="mil-play-idle-title">Clash · Choose a method</p>
+      <p class="mil-play-hint">Four short acts · press Clash to begin</p>
     </div>
   `;
 
@@ -120,17 +120,17 @@ export function bindMilitaryGame(root, opts = {}) {
   const clashHtml = (yours, foe, ok) => `
       <div class="mil-duel ${ok ? "is-win" : "is-miss"}" aria-live="polite">
         <div class="mil-duel-slot">
-          <p class="mil-duel-label">你的打法</p>
+          <p class="mil-duel-label">Your method</p>
           ${cardFaceHtml(yours, { role: "is-yours", win: ok, lose: !ok })}
         </div>
-        <div class="mil-duel-vs" aria-hidden="true">对撞</div>
+        <div class="mil-duel-vs" aria-hidden="true">Clash</div>
         <div class="mil-duel-slot">
-          <p class="mil-duel-label">对面</p>
+          <p class="mil-duel-label">Opposite</p>
           ${cardFaceHtml(foe, { role: "is-foe", win: !ok, lose: ok })}
         </div>
       </div>
       <p class="mil-battle-status">${
-        ok ? "你的打法压住对面" : "没打过对面 · 这套顶不住"
+        ok ? "Your method holds the field" : "The field holds · this method cannot stand"
       }</p>
     `;
 
@@ -139,7 +139,7 @@ export function bindMilitaryGame(root, opts = {}) {
     return clashHtml(doctrineMap[pickedId], round.enemyCard, ok);
   };
 
-  /** 对撞后：败方变暗，再从中间裂开 */
+  /** After the clash: the loser darkens, then splits down the middle */
   const playClashResolve = () => {
     const duel = stage.querySelector(".mil-duel");
     if (!duel) return;
@@ -172,14 +172,14 @@ export function bindMilitaryGame(root, opts = {}) {
 
     stage.innerHTML = `
       <div class="mil-play-head">
-        <p class="aside-label">初局 · ${round.act} / ${ROUNDS.length} · ${round.yearHint}</p>
+        <p class="aside-label">Opening · ${round.act} / ${ROUNDS.length} · ${round.yearHint}</p>
         <h3 class="mil-play-title">${round.title}</h3>
         <p class="mil-play-brief">${round.briefing}</p>
       </div>
-      <div class="mil-card-row" role="group" aria-label="打法卡">
+      <div class="mil-card-row" role="group" aria-label="Method cards">
         ${cards}
       </div>
-      <p class="mil-play-tip">点选一张打法卡开战。</p>
+      <p class="mil-play-tip">Choose a method card to open the clash.</p>
     `;
 
     stage.querySelectorAll("[data-pick]").forEach((btn) => {
@@ -201,7 +201,7 @@ export function bindMilitaryGame(root, opts = {}) {
 
     stage.innerHTML = `
       <div class="mil-play-head">
-        <p class="aside-label">初局 · ${round.act} / ${ROUNDS.length} · 对撞</p>
+        <p class="aside-label">Opening · ${round.act} / ${ROUNDS.length} · Clash</p>
         <h3 class="mil-play-title">${round.title}</h3>
       </div>
       ${doctrineDuel(pickedId, ok)}
@@ -219,22 +219,22 @@ export function bindMilitaryGame(root, opts = {}) {
     const round = ROUNDS[state.index];
     if (!round) return;
     state.phase = "result";
-    const explain = round.trapExplain[pickedId] || "这套打法扛不住本幕的压力。";
+    const explain = round.trapExplain[pickedId] || "This method cannot bear the pressure of this act.";
     const correct = doctrineMap[round.correctId];
 
     stage.innerHTML = `
       <div class="mil-play-head">
-        <p class="aside-label">初局 · ${round.act} / ${ROUNDS.length}</p>
-        <h3 class="mil-play-title">没打过对面</h3>
+        <p class="aside-label">Opening · ${round.act} / ${ROUNDS.length}</p>
+        <h3 class="mil-play-title">The method fails</h3>
       </div>
       ${doctrineDuel(pickedId, false)}
       <div class="mil-result is-miss">
         <p class="mil-result-text">${explain}</p>
-        <p class="mil-result-correct">更稳的打法：<strong>${correct.title}</strong> — ${correct.blurb}</p>
+        <p class="mil-result-correct">The surer method: <strong>${correct.title}</strong> — ${correct.blurb}</p>
       </div>
       <div class="mil-result-actions">
         <button type="button" class="btn" data-mil-next>${
-          state.index >= ROUNDS.length - 1 ? "查看收束" : "下一幕"
+          state.index >= ROUNDS.length - 1 ? "See the close" : "Next act"
         }</button>
       </div>
     `;
@@ -252,8 +252,8 @@ export function bindMilitaryGame(root, opts = {}) {
     state.phase = "result";
     stage.innerHTML = `
       <div class="mil-play-head">
-        <p class="aside-label">初局 · ${round.act} / ${ROUNDS.length}</p>
-        <h3 class="mil-play-title">打法成立</h3>
+        <p class="aside-label">Opening · ${round.act} / ${ROUNDS.length}</p>
+        <h3 class="mil-play-title">The method holds</h3>
       </div>
       ${doctrineDuel(round.correctId, true)}
       <div class="mil-result is-win">
@@ -261,7 +261,7 @@ export function bindMilitaryGame(root, opts = {}) {
       </div>
       <div class="mil-result-actions">
         <button type="button" class="btn" data-mil-next>${
-          state.index >= ROUNDS.length - 1 ? "查看收束" : "下一幕"
+          state.index >= ROUNDS.length - 1 ? "See the close" : "Next act"
         }</button>
       </div>
     `;
@@ -286,15 +286,15 @@ export function bindMilitaryGame(root, opts = {}) {
     const total = ROUNDS.length;
     stage.innerHTML = `
       <div class="mil-play-end">
-        <p class="aside-label">通关</p>
-        <h3 class="mil-play-title">初局完成</h3>
-        <p class="mil-end-score">选对打法 <strong>${state.correctDoctrine}</strong> / ${total} 幕</p>
-        <p class="mil-end-text">对撞局完成。可继续读厅内长文，或直接进入第二局「战争与经济」。</p>
+        <p class="aside-label">Cleared</p>
+        <h3 class="mil-play-title">Opening complete</h3>
+        <p class="mil-end-score">Methods chosen well <strong>${state.correctDoctrine}</strong> / ${total} acts</p>
+        <p class="mil-end-text">Clash complete. Continue with the hall essay, or go on to game two, War and Economy.</p>
         <blockquote class="mil-closing mil-closing-inline">${GAME_META.closing}</blockquote>
         <div class="mil-result-actions">
-          <button type="button" class="btn" data-mil-to-ledger>下一局 · 战争与经济</button>
-          <button type="button" class="btn btn-ghost" data-mil-to-wall>继续阅读 ↓</button>
-          <button type="button" class="btn btn-ghost" data-mil-restart>再来一局</button>
+          <button type="button" class="btn" data-mil-to-ledger>Next game · War and Economy</button>
+          <button type="button" class="btn btn-ghost" data-mil-to-wall>Continue reading ↓</button>
+          <button type="button" class="btn btn-ghost" data-mil-restart>Play again</button>
         </div>
       </div>
     `;
@@ -343,11 +343,11 @@ export function bindMilitaryGame(root, opts = {}) {
 
 export function militaryGameBayHtml() {
   return `
-    <section class="mil-game-bay" id="mil-game-bay" aria-label="军事厅小游戏">
+    <section class="mil-game-bay" id="mil-game-bay" aria-label="Military hall game">
       <div class="mil-play-stage" data-mil-stage aria-live="polite"></div>
       <div class="mil-game-actions">
-        <button class="btn" type="button" data-mil-start>对撞局</button>
-        <button class="btn btn-ghost" type="button" data-mil-advanced disabled aria-disabled="true" title="先通关对撞局后再开放">战争与经济</button>
+        <button class="btn" type="button" data-mil-start>Clash</button>
+        <button class="btn btn-ghost" type="button" data-mil-advanced disabled aria-disabled="true" title="Unlocks after Clash is cleared">War and Economy</button>
       </div>
     </section>
   `;

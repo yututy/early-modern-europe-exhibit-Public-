@@ -14,151 +14,151 @@ function econMedia(slide) {
 const economyThemes = [
   {
     id: "boom",
-    title: "繁荣的底盘",
-    teaser: "人口、矿冶与贸易城市同步抬头——扩张首先是可计数的背景板。",
-    pageLabel: "第 I 册 · 底盘",
+    title: "The base of prosperity",
+    teaser: "Population, mining, and trading cities rise together—expansion begins as a countable backdrop.",
+    pageLabel: "Folio I · Base",
     slides: [
       {
-        title: "一个世纪的人口与城市",
+        title: "A century of people and cities",
         paras: [
-          "16 世纪上半叶，欧洲多地人口广泛增长，势头往往可延至约 1620。人口把更多人推进可征税、可雇佣、可借贷的货币关系：粮食、房租、工资与债务彼此咬合。城市数字最容易被写成「繁荣」的证据。",
-          "折线图并置罗马（卷一）与安特卫普（城市史通行估计）的量级轨迹。口径不同会差数千人；展览读的是「跃升」结构，不是户口册。",
+          "In the first half of the sixteenth century, population grew widely across much of Europe, often lasting into about 1620. Growth pushed more people into taxable, hireable, borrowable money relations: grain, rent, wages, and debt locked together. City figures were the easiest evidence to write down as “prosperity.”",
+          "The line chart sets Rome (Volume I) beside Antwerp (standard urban-history estimates) on a shared scale. Different counting methods can shift totals by thousands; the exhibition reads the structure of the leap, not a census roll.",
         ],
         src: "/economy/antwerp_birdseye.jpg",
-        alt: "安特卫普城市历史鸟瞰",
-        caption: "城市数字：繁荣最先被写成可统计的人口与吞吐",
-        voucher: "市集与教区册送来的人口节略到账。是否记入「繁荣底盘」？",
-        journal: "借：城市人口与消费 · 贷：可征税、可雇佣的货币关系",
-        seal: "人口",
+        alt: "Historical bird’s-eye view of Antwerp",
+        caption: "City numbers: prosperity first written as countable population and throughput",
+        voucher: "Population abstracts arrive from markets and parish books. Enter them under “base of prosperity”?",
+        journal: "Dr: Urban population & consumption · Cr: Taxable, hireable money relations",
+        seal: "Population",
         interact: "popChart",
       },
       {
-        title: "矿冶、冶炼与印刷配套",
+        title: "Mining, smelting, and the print complex",
         paras: [
-          "约 1460–1530，铁、铜、银产量大幅上升。矿石很少直接变成货币：先要选矿与破碎，再经焙烧去硫，进入鼓风炉靠木炭与水力鼓风维持高温，炉渣与金属分离后，还要精炼、铸锭。排水机械与坑道支护同样吞进资本——矿冶本身就是一场工业扩张。",
-          "阿格里科拉《论矿冶》把抽水机、炉况与坑道画进印刷书，使技术可复制传播。印刷又拉动造纸与眼镜；城市拉动建筑。下面三步按「备矿→熔炼→出锭」工作流程推进（示意节奏，非真实工艺仿真）。",
+          "From about 1460–1530, output of iron, copper, and silver rose sharply. Ore seldom became money at once: it had to be sorted and crushed, roasted to strip sulfur, then driven in blast furnaces with charcoal and hydraulic blast; after slag and metal parted, refining and casting into bars still remained. Drainage engines and timbered galleries swallowed capital too—mining itself was an industrial expansion.",
+          "Agricola’s De re metallica put pumps, furnace practice, and galleries into print, so technique could travel. Printing in turn pulled paper-making and spectacles; cities pulled building. The three steps below follow the workflow “prepare ore → smelt → cast bars” (a schematic rhythm, not a full process simulation).",
         ],
         src: "/economy/mining.jpg",
-        alt: "阿格里科拉《论矿冶》矿井器械木刻",
-        caption: "矿冶器械进入印刷书：实业扩张的技术面孔",
-        voucher: "矿冶与冶炼产出节略到账：金属进入可调度的产业底盘？",
-        journal: "借：铁铜银与印刷配套 · 贷：可调度的产业底盘",
-        seal: "矿冶",
+        alt: "Agricola, De re metallica: woodcut of mine engines",
+        caption: "Mine engines enter the printed book: the technical face of industrial expansion",
+        voucher: "Mining and smelting abstracts to the books: does metal enter a mobilizable industrial base?",
+        journal: "Dr: Iron, copper, silver & print complex · Cr: Mobilizable industrial base",
+        seal: "Mining",
         interact: "smelt",
       },
       {
-        title: "安特卫普：可被看见的枢纽",
+        title: "Antwerp: a hub you can see",
         paras: [
-          "16 世纪上半叶，安特卫普是北欧最便于「点名」的贸易与金融枢纽。港区与交易所是看得见的地理落点；汇票与行情书信则是看不见的跨城信用工具——两者叠在一起，才把吞吐写成接口。",
-          "在鸟瞰图上点选港区、交易所；再点开两张信用工具卡读说明。四处齐亮后本册可翻页。佛罗伦萨与奥格斯堡的账房，正是接到这类城市网络上，地方财富才变成可调动的欧洲力量。",
+          "In the first half of the sixteenth century, Antwerp was northern Europe’s most nameable trade and finance hub. Quays and the exchange were visible geographic anchors; bills of exchange and market letters were invisible tools of inter-city credit—only together did they write throughput as an interface.",
+          "On the bird’s-eye view, tap the port and the exchange; then open the two credit-instrument cards. Once all four are lit, this folio may turn. Florence and Augsburg counting-houses plugged into just such urban networks before local wealth became mobilizable European power.",
         ],
         src: "/economy/antwerp_birdseye.jpg",
-        alt: "安特卫普 1572 年鸟瞰图（Braun & Hogenberg）",
-        caption: "安特卫普：地理落点 + 跨城信用工具",
-        voucher: "安特卫普枢纽图已开卷。四处确认后可开新页。",
-        journal: "借：北海枢纽吞吐 · 贷：跨城信用接口",
-        seal: "枢纽",
+        alt: "Antwerp bird’s-eye view, 1572 (Braun & Hogenberg)",
+        caption: "Antwerp: geographic anchors + inter-city credit tools",
+        voucher: "The Antwerp hub plate is open. Confirm all four sites, then turn the page.",
+        journal: "Dr: North Sea hub throughput · Cr: Inter-city credit interface",
+        seal: "Hub",
         interact: "antwerpMap",
       },
     ],
   },
   {
     id: "merchant",
-    title: "商人—银行家",
-    teaser: "美第奇给出尺度；办公室与出差制改写「商人」一词。",
-    pageLabel: "第 II 册 · 账房",
+    title: "Merchant-bankers",
+    teaser: "The Medici set the scale; the office and the putting-out system rewrite the word “merchant.”",
+    pageLabel: "Folio II · Counting-house",
     slides: [
       {
-        title: "美第奇：多分支的尺度",
+        title: "The Medici: the scale of many branches",
         paras: [
-          "美第奇起于佛罗伦萨呢绒与汇兑。14 世纪末至 15 世纪，乔瓦尼·迪·比奇一系把银行做成可跨城复制的企业：罗马承接教廷相关收付，威尼斯、日内瓦、布鲁日等处分行处理贸易结算与政治贷款。到约 1460 年，它仍是欧洲最有影响力的商业—金融复合体之一。",
-          "1451 年前后资产约在九万弗罗林量级——对意大利城邦与教皇财政已足以施压。科西莫把利润转投赞助与城邦联盟；洛伦佐一代继续以信用维持「第一公民」式影响。纹章圆球象征可分行复制的名号信用。",
-          "高风险放贷也会反噬：布吕日分行对勃艮第公爵一类大人物的借贷，是网络后来收缩的因素之一。把美第奇放在富格尔之前，是立对照尺——同一种商人—银行家角色，半个多世纪后会被矿冶帝国推到更大尺度。",
+          "The Medici rose from Florentine cloth and exchange. From the late fourteenth into the fifteenth century, the line of Giovanni di Bicci built a bank that could be copied across cities: Rome handled Curia-related receipts and payments; branches in Venice, Geneva, Bruges, and elsewhere settled trade and political loans. By about 1460 it was still one of Europe’s most influential commercial–financial complexes.",
+          "Around 1451 assets stood in the order of some ninety thousand florins—enough to press Italian city-states and papal finance. Cosimo turned profits into patronage and civic alliances; Lorenzo’s generation kept “first citizen” influence afloat on credit. The heraldic balls stand for a name-credit that could be replicated branch by branch.",
+          "High-risk lending could rebound: Bruges-branch loans to great men such as the Duke of Burgundy were one reason the network later contracted. Placing the Medici before the Fugger sets a measuring rod—the same merchant-banker role that mining empires would, half a century later, push to a larger scale.",
         ],
         src: "/economy/medici_arms.jpg",
-        alt: "美第奇纹章：家族信用的可视标识",
-        caption: "美第奇纹章：工商、信贷与城邦政治叠在同一名号上",
-        voucher: "佛罗伦萨来函：多分支资产约九万弗罗林。记为对照尺。",
-        journal: "借：多分支工商信贷 · 贷：可跨城复制的家族信用",
-        seal: "尺度",
+        alt: "Medici arms: a visible mark of family credit",
+        caption: "Medici arms: trade, credit, and city politics stacked on one name",
+        voucher: "Letter from Florence: multi-branch assets about ninety thousand florins. Enter as measuring rod.",
+        journal: "Dr: Multi-branch trade & credit · Cr: Family credit replicable across cities",
+        seal: "Scale",
         interact: null,
       },
       {
-        title: "从行商到办公室",
+        title: "From itinerant trader to the office",
         paras: [
-          "16 世纪初，成功商人越来越像坐办公室的人：阿拉伯数字簿记、商法与保险、书信里的价格与汇兑情报，以及评估政局对市场的冲击。长途行商仍在，上层精英的日常却在账桌与信函里完成调度。",
-          "点击账房罗盘上的行业印记，阅读各面向的展开说明——兑换、国际银行、保险、实业与地产。早期现代资本的面孔，常常是墨水、印章与利率。",
+          "By the early sixteenth century, successful merchants looked more and more like people at desks: Arabic-numeral bookkeeping, commercial law and insurance, prices and exchange intelligence in letters, and judgment of how politics hit markets. Long-distance itinerants still existed; elite daily work was already scheduled at the ledger table and in correspondence.",
+          "Tap the trade seals on the counting-house compass to read each face—exchange, international banking, insurance, industry, and landed property. The face of early modern capital was often ink, seals, and interest rates.",
         ],
         src: "/economy/antwerp_bourse.jpg",
-        alt: "安特卫普交易所：坐办公室的资本日常",
-        caption: "账房与交易所：坐办公室的资本日常",
-        voucher: "办公室规程：商人一词是否从零售扩成职业名册？",
-        journal: "借：簿记与汇兑情报 · 贷：坐办公室的资本形态",
-        seal: "簿记",
+        alt: "Antwerp Exchange: the everyday of capital at the desk",
+        caption: "Counting-house and exchange: the everyday of capital at the desk",
+        voucher: "Office rules: has “merchant” widened from retail into a professional register?",
+        journal: "Dr: Bookkeeping & exchange intelligence · Cr: Capital form at the desk",
+        seal: "Books",
         interact: "trades",
       },
       {
-        title: "出差制：资本伸进农户",
+        title: "Putting-out: capital reaches the household",
         paras: [
-          "出差制（putting-out）：商人发料，农户家内加工，再交回成品。资本不必拥有每台织机，却能用原料、订单与收购把家庭劳动编进可计算的节奏。",
-          "下方「线轴」交互把分包链写成可绕行的劳动回路；点亮一周后对照利弊。能组织矿冶与信贷的人，在战争与帝选需要银两时，又会站在君主对面谈判利率。",
+          "Putting-out: the merchant supplies materials; households process them at home and return finished goods. Capital need not own every loom, yet can bind family labor into a countable rhythm with raw stock, orders, and inspection.",
+          "The “spindle” interaction below writes the subcontract chain as a loop you can walk; light a full week, then weigh gains and costs. Those who could organize mines and credit would, when war and the imperial election needed silver, stand across the table from princes negotiating rates.",
         ],
         src: "/economy/mining.jpg",
-        alt: "矿冶与家内劳动相关技术图像",
-        caption: "出差制与矿冶书：资本如何组织劳动与技术",
-        voucher: "出差制发包单到账。封章后开第 III 册。",
-        journal: "借：家内加工与矿冶发包 · 贷：可计算的劳动链条",
-        seal: "发包",
+        alt: "Technical image linked to mining and household labor",
+        caption: "Putting-out and mining books: how capital organizes labor and technique",
+        voucher: "Putting-out commission sheet posted. Seal, then open Folio III.",
+        journal: "Dr: Household work & mining contracts · Cr: Countable labor chain",
+        seal: "Outwork",
         interact: "chain",
       },
     ],
   },
   {
     id: "fugger",
-    title: "矿冶接到帝选",
-    teaser: "雅各布·富格尔的生平；1519 弗罗林进入最高政治。",
-    pageLabel: "第 III 册 · 帝选",
+    title: "From mines to the imperial election",
+    teaser: "The life of Jakob Fugger; florins of 1519 enter high politics.",
+    pageLabel: "Folio III · Imperial election",
     slides: [
       {
-        title: "雅各布·富格尔：生平与企业",
+        title: "Jakob Fugger: life and firm",
         paras: [
-          "雅各布·富格尔（1459–1525）生于奥格斯堡商人家庭。1478 年前后约十九岁正式从商，先在家族纺织与贸易网络中学习调度，后把重心转向矿冶承揽、金属销售与跨境放贷，使「富格尔」成为可同时看见矿井产量与宫廷现金缺口的复合企业名号。",
-          "他与哈布斯堡长期往来：为马克西米利安等垫付军政开销，换取矿权、还款安排与市场准入。企业利益涉及蒂罗尔银、匈牙利铜、西班牙汞等；到其后人盛期，分支约达二十五处。1525 年雅各布去世时，已是欧洲最富有的商人—银行家之一。",
+          "Jakob Fugger (1459–1525) was born into an Augsburg merchant family. Around 1478, at about nineteen, he entered trade in earnest—first learning logistics in the family’s textile and commercial network, then shifting toward mining leases, metal sales, and cross-border lending, until “Fugger” named a compound firm that could see both mine output and court cash shortfalls at once.",
+          "He dealt for decades with the Habsburgs: advancing military and political outlays for Maximilian and others in return for mining rights, repayment schedules, and market access. Interests touched Tyrolean silver, Hungarian copper, Spanish mercury, and more; at the height under his successors, branches numbered about twenty-five. When Jakob died in 1525, he was already one of Europe’s richest merchant-bankers.",
         ],
         src: "/economy/fugger.jpg",
-        alt: "雅各布·富格尔相关肖像",
-        caption: "雅各布·富格尔：矿冶—信贷企业的人格化面孔",
-        voucher: "奥格斯堡人事档：雅各布生平与企业节略入册。",
-        journal: "借：矿冶帝国与分支网 · 贷：可持续的大额放贷能力",
-        seal: "富格尔",
+        alt: "Portrait associated with Jakob Fugger",
+        caption: "Jakob Fugger: the human face of a mining–credit firm",
+        voucher: "Augsburg personnel file: Jakob’s life and firm abstracted into the book.",
+        journal: "Dr: Mining empire & branch net · Cr: Sustainable capacity for large loans",
+        seal: "Fugger",
         interact: null,
       },
       {
-        title: "1519：约 54.3 万弗罗林",
+        title: "1519: about 543,000 florins",
         paras: [
-          "1519 年帝选，雅各布向哈布斯堡候选人（查理）一侧提供约 54.3 万弗罗林量级支持。细数常见写作约 543,385，约占整场选侯现金安排（约 85 万量级）的三分之二。",
-          "数字会过时，结构不会：私人信贷直接进入最高政治。",
+          "In the 1519 imperial election, Jakob supplied support on the order of some 543,000 florins to the Habsburg candidate (Charles). Fine totals are often written as about 543,385—roughly two-thirds of the electors’ cash arrangements for the whole contest (on the order of some 850,000).",
+          "The figure may date; the structure does not: private credit walked straight into high politics.",
         ],
         src: "/economy/charles_medal.jpg",
-        alt: "查理五世奖章：帝选现金所托起的公共权力象征",
-        caption: "帝选计量：私人信贷如何写成公共权力",
-        voucher: "帝选专档：约 54.3 万弗罗林待分支入账、点亮。",
-        journal: "借：选侯所需现金与承诺 · 贷：1519 帝选政治杠杆",
+        alt: "Medal of Charles V: a public emblem raised on election cash",
+        caption: "Measuring the imperial election: how private credit writes public power",
+        voucher: "Imperial-election file: about 543,000 florins await branch posting and lighting.",
+        journal: "Dr: Cash & pledges the electors needed · Cr: Political leverage in the 1519 election",
         seal: "1519",
         interact: "florins",
       },
       {
-        title: "私人信贷，公共权力",
+        title: "Private credit, public power",
         paras: [
-          "经济厅走到这里：人口与城市给出可计数的底盘，商人—银行家把信用做成可跨城调度的企业，富格尔则证明大额私人信贷能改写谁坐上帝国的位子。",
-          "「有钱」在此不等于市集喧哗，而等于能持续供养矿冶、汇票与选侯现金的那一套账房能力。扩张的引擎，响在利率与印章之间——下一站军事厅，会从火药与步兵再问一遍：谁付得起、谁垄断得了有组织的武力。",
+          "Here the Economy Hall arrives: population and cities gave a countable base; merchant-bankers made credit a firm that could be scheduled across cities; the Fugger proved that large private credit could rewrite who sat on the imperial throne.",
+          "“Having money” here is not market noise; it is the counting-house capacity to keep feeding mines, bills of exchange, and electors’ cash. The engine of expansion sounds between interest rates and seals—next, the Military Hall will ask again, from gunpowder and infantry: who can pay for organized force, and who can monopolize it.",
         ],
         src: "/economy/merchant_andorfer.jpg",
-        alt: "塞巴斯蒂安·安多费尔肖像（1517）：文艺复兴时期的富商面孔",
-        caption: "到站：富商肖像——私人财富与公共权力交汇的社会面孔",
-        voucher: "总账收束页：三册已齐。盖章锁册。",
-        journal: "借：私人信贷网络 · 贷：公共权力的现金条件",
-        seal: "接合",
+        alt: "Portrait of Sebastian Andorfer (1517): a Renaissance merchant face",
+        caption: "Arrival: a merchant portrait—the social face where private wealth meets public power",
+        voucher: "Closing sheet of the ledger: three folios complete. Stamp and close the books.",
+        journal: "Dr: Private credit networks · Cr: Cash conditions of public power",
+        seal: "Nexus",
         interact: null,
       },
     ],
@@ -232,7 +232,7 @@ function popChartSvg() {
     )
     .join("");
   return `
-    <svg class="pop-chart" viewBox="0 0 ${w} ${h}" role="img" aria-label="罗马与安特卫普人口量级折线图">
+    <svg class="pop-chart" viewBox="0 0 ${w} ${h}" role="img" aria-label="Line chart of population scale for Rome and Antwerp">
       ${gridY}${gridX}
       <line x1="${pad.l}" y1="${h - pad.b}" x2="${w - pad.r}" y2="${h - pad.b}" stroke="rgba(196,165,116,0.4)" />
       <line x1="${pad.l}" y1="${pad.t}" x2="${pad.l}" y2="${h - pad.b}" stroke="rgba(196,165,116,0.4)" />
@@ -240,7 +240,7 @@ function popChartSvg() {
         .map((v) => {
           const y = yPop(v);
           return `<line x1="${pad.l - 4}" y1="${y}" x2="${pad.l}" y2="${y}" stroke="rgba(196,165,116,0.45)" />
-            <text x="6" y="${y + 3}" fill="#a69e90" font-size="9">${v}万</text>`;
+            <text x="6" y="${y + 3}" fill="#a69e90" font-size="9">${v}×10k</text>`;
         })
         .join("")}
       ${yearTicks
@@ -258,8 +258,8 @@ function popChartSvg() {
       ${ant
         .map((p) => `<circle cx="${xYear(p[0])}" cy="${yPop(p[1])}" r="3.5" fill="#8fa88a" />`)
         .join("")}
-      <text x="${w - pad.r}" y="16" fill="#d4bc94" font-size="11" text-anchor="end">罗马</text>
-      <text x="${w - pad.r}" y="32" fill="#8fa88a" font-size="11" text-anchor="end">安特卫普</text>
+      <text x="${w - pad.r}" y="16" fill="#d4bc94" font-size="11" text-anchor="end">Rome</text>
+      <text x="${w - pad.r}" y="32" fill="#8fa88a" font-size="11" text-anchor="end">Antwerp</text>
     </svg>`;
 }
 
@@ -271,9 +271,9 @@ function smeltStepVisual(step) {
     "/economy/smelt_agri_furnace.jpg",
   ];
   const alts = [
-    "阿格里科拉木刻：矿井备矿与器械",
-    "阿格里科拉木刻：焙烧与炉群工序全景",
-    "阿格里科拉木刻：炉前作业与金属汇聚",
+    "Agricola woodcut: preparing ore and mine engines",
+    "Agricola woodcut: roasting and furnace yards in overview",
+    "Agricola woodcut: work at the furnace and metal gathering",
   ];
   const i = Math.max(0, Math.min(2, step));
   return `
@@ -290,33 +290,33 @@ function ledgerInteractHtml(entry) {
   if (type === "popChart") {
     return `
       <div class="ledger-x" data-interact="popChart">
-        <p class="ledger-x-label">折线图 · 横轴年代 · 纵轴人口（万）</p>
+        <p class="ledger-x-label">Line chart · years on the x-axis · population (×10,000) on the y-axis</p>
         ${popChartSvg()}
-        <p class="ledger-x-note">罗马据卷一精读；安特卫普取通行城市史量级中值。用于看见跃升，而非精确普查。</p>
+        <p class="ledger-x-note">Rome follows Volume I close reading; Antwerp takes midpoints from standard urban-history scales. Use it to see the leap, not a precise census.</p>
       </div>`;
   }
 
   if (type === "smelt") {
     const steps = [
       {
-        t: "1. 备矿",
-        d: "矿石很少能直接入炉。先要分选、破碎，去掉脉石与杂质，再备妥木炭与熔剂。没有这一步，炉温与炉渣无法被控制，后续熔炼只会把问题带进金属。",
-        vis: "木刻示意：坑道、排水与备料器械——实业扩张的第一环。",
+        t: "1. Prepare the ore",
+        d: "Ore rarely goes straight into the furnace. First sort and crush it, strip gangue and impurities, then ready charcoal and flux. Without this step, heat and slag cannot be controlled, and later smelting only carries the problem into the metal.",
+        vis: "Woodcut sketch: galleries, drainage, and prep engines—the first link of industrial expansion.",
       },
       {
-        t: "2. 鼓风熔炼",
-        d: "装炉之后靠水力或风箱鼓风，把炉温推到金属可汇聚的区间。硫与脉石进入炉渣被撇出，液态金属在炉底与前床聚集——这是把「矿」改写成「可调度材料」的关键工序。",
-        vis: "木刻示意：焙烧坑、炉群与烟道——鼓风把温度与杂质分开。",
+        t: "2. Blast smelting",
+        d: "Once charged, hydraulic or bellows blast drives the furnace into the range where metal can gather. Sulfur and gangue enter the slag and are skimmed; liquid metal pools in the hearth and forehearth—this is the key process that rewrites “ore” as “mobilizable material.”",
+        vis: "Woodcut sketch: roasting pits, furnace yards, and flues—blast separates heat from impurity.",
       },
       {
-        t: "3. 出金属",
-        d: "出炉后浇入锭模，冷却脱模成锭。锭可进铸币厂，也可进铸炮与器械作坊——金属第一次成为可记账、可抵押、可跨城调配的产业底盘单元。",
-        vis: "木刻示意：炉前作业——金属汇聚，准备成锭进入产业底盘。",
+        t: "3. Draw the metal",
+        d: "After tapping, pour into molds; cool and strip the bars. Bars can feed the mint or workshops for guns and engines—metal first becomes a unit of industrial base that can be booked, pledged, and allocated across cities.",
+        vis: "Woodcut sketch: work at the furnace—metal gathers, ready to cast into the industrial base.",
       },
     ];
     return `
       <div class="ledger-x" data-interact="smelt" data-step="0">
-        <p class="ledger-x-label">工作流程 · 冶炼三步（阿格里科拉木刻）</p>
+        <p class="ledger-x-label">Workflow · three smelting steps (Agricola woodcuts)</p>
         <ol class="smelt-steps">
           ${steps
             .map(
@@ -331,10 +331,10 @@ function ledgerInteractHtml(entry) {
           <div class="smelt-flow-wrap" data-smelt-flow>${smeltStepVisual(0)}</div>
           <div class="smelt-stage-copy">
             <p class="smelt-vis" data-vis>${steps[0].vis}</p>
-            <button type="button" class="btn" data-smelt-next>进入鼓风熔炼 →</button>
+            <button type="button" class="btn" data-smelt-next>Enter blast smelting →</button>
           </div>
         </div>
-        <p class="ledger-x-note smelt-done" hidden>冶炼流程走完：金属进入可调度的产业底盘。可继续下一笔。</p>
+        <p class="ledger-x-note smelt-done" hidden>Smelting complete: metal enters a mobilizable industrial base. You may continue to the next entry.</p>
       </div>`;
   }
 
@@ -342,17 +342,17 @@ function ledgerInteractHtml(entry) {
     const places = [
       {
         id: "port",
-        label: "港区货栈",
+        label: "Port warehouses",
         x: 24,
         y: 36,
-        d: "斯海尔德河一侧的码头与货栈，是内陆货物出海、海外货物上岸的交接面。装卸节奏决定城市吞吐：没有港区，后面的交易所与汇票只是空转的纸面信用。吞吐本身，就是枢纽的第一张脸。",
+        d: "Wharves and warehouses along the Scheldt were the hand-off where inland goods went to sea and overseas cargo came ashore. The rhythm of loading set the city’s throughput: without the port, the exchange and bills of exchange were only idle paper credit. Throughput itself is the hub’s first face.",
       },
       {
         id: "bourse",
-        label: "交易所",
+        label: "The Exchange",
         x: 51,
         y: 44,
-        d: "商人在此比价、议汇、交换票据与消息。交易所把分散的买卖收成可被看见的舞台——价格、信誉与政局传闻，都在同一屋檐下被重新定价。它是现金与承诺相遇的房间。",
+        d: "Here merchants compared prices, negotiated exchange, and traded notes and news. The exchange gathered scattered deals into a stage that could be seen—prices, reputation, and political rumor were all re-priced under one roof. It is the room where cash met promises.",
       },
     ];
     const billIcon = `<svg class="antwerp-tool-svg" viewBox="0 0 40 40" aria-hidden="true"><rect x="8" y="6" width="24" height="28" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 12h16M12 17h16M12 22h12" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="28" cy="28" r="5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M26.5 28h3M28 26.5v3" stroke="currentColor" stroke-width="1.2"/></svg>`;
@@ -360,24 +360,24 @@ function ledgerInteractHtml(entry) {
     const tools = [
       {
         id: "bill",
-        label: "汇票网络",
+        label: "Bill-of-exchange network",
         icon: billIcon,
-        tag: "跨城信用",
-        d: "汇票不是某栋楼，而是可携带的承诺：不必随身运整箱现金，信用可以提前到达下一座城市。安特卫普成为枢纽，不只因为船多，更因为这类票据把北海与内陆账房缝成一张网。",
+        tag: "Inter-city credit",
+        d: "A bill of exchange is not a building but a portable promise: you need not haul chests of cash; credit can arrive in the next city ahead of you. Antwerp became a hub not only because ships were many, but because such notes stitched North Sea and inland counting-houses into one net.",
       },
       {
         id: "news",
-        label: "行情书信",
+        label: "Market letters",
         icon: letterIcon,
-        tag: "情报通道",
-        d: "书信不是地图上的地标，而是流动的行情与政局评估。谁先读到可靠消息，谁就能在兑换与放贷里抢到时间差——情报本身，也是可计价的资产。",
+        tag: "Intelligence channel",
+        d: "Letters are not landmarks on the map but flowing market and political assessments. Whoever read reliable news first could seize the time gap in exchange and lending—intelligence itself was a priceable asset.",
       },
     ];
     return `
       <div class="ledger-x ledger-x-map" data-interact="antwerpMap">
-        <p class="ledger-x-label">交互 · 地理落点 + 跨城信用工具</p>
+        <p class="ledger-x-label">Interact · geographic anchors + inter-city credit tools</p>
         <div class="antwerp-stage" id="antwerp-stage">
-          <img class="antwerp-map" src="/economy/antwerp_birdseye.jpg" alt="安特卫普 1572 鸟瞰图" draggable="false" />
+          <img class="antwerp-map" src="/economy/antwerp_birdseye.jpg" alt="Antwerp bird’s-eye view, 1572" draggable="false" />
           ${places
             .map(
               (z) => `
@@ -389,12 +389,12 @@ function ledgerInteractHtml(entry) {
             ${places
               .map(
                 (z) => `
-              <li data-hub="${z.id}"><span class="flash-dot"></span><strong>${z.label}</strong><em>地理</em></li>`
+              <li data-hub="${z.id}"><span class="flash-dot"></span><strong>${z.label}</strong><em>Geography</em></li>`
               )
               .join("")}
           </ul>
         </div>
-        <p class="antwerp-tools-label">信用工具（不落在地图坐标上）</p>
+        <p class="antwerp-tools-label">Credit tools (not pinned to map coordinates)</p>
         <div class="antwerp-tools">
           ${tools
             .map(
@@ -409,8 +409,8 @@ function ledgerInteractHtml(entry) {
             )
             .join("")}
         </div>
-        <p class="hub-detail" data-hub-detail>先点地图上的港区/交易所，再点两张信用工具卡。</p>
-        <p class="ledger-x-note">已确认 <span data-antwerp-n>0</span> / 4</p>
+        <p class="hub-detail" data-hub-detail>First tap the port / exchange on the map, then the two credit-tool cards.</p>
+        <p class="ledger-x-note">Confirmed <span data-antwerp-n>0</span> / 4</p>
         <div class="antwerp-modal antwerp-modal-inline" data-antwerp-modal hidden>
           <h4 data-antwerp-title></h4>
           <p data-antwerp-body></p>
@@ -421,39 +421,39 @@ function ledgerInteractHtml(entry) {
   if (type === "trades") {
     const trades = [
       {
-        t: "兑换",
+        t: "Exchange",
         icon: "⇄",
         angle: -90,
-        d: "不同货币与汇票的即时兑换，是跨城贸易的入口。账房要同时盯住成色、汇费与城际价差，才能把「地方钱」换成「路上钱」。没有兑换这一环，分行网络只是空架子。",
+        d: "Spot conversion of currencies and bills is the gateway to inter-city trade. The counting-house must watch fineness, exchange fees, and price gaps between cities to turn “local money” into “money on the road.” Without exchange, a branch network is only an empty frame.",
       },
       {
-        t: "国际银行",
+        t: "International banking",
         icon: "▦",
         angle: -18,
-        d: "多分行放贷与清算，把地方存款变成远程支付能力。美第奇与富格尔的力量，很大程度来自分行网络能否在正确的城市兑现承诺。一张名号，要能在多城同时被相信。",
+        d: "Multi-branch lending and clearing turn local deposits into remote payment power. Much of Medici and Fugger strength came from whether the branch net could honor promises in the right city. One name had to be believed in many places at once.",
       },
       {
-        t: "保险",
+        t: "Insurance",
         icon: "◈",
         angle: 54,
-        d: "为船货与契约定价风险，让远距生意算得过来。保险把海难与违约从个人厄运，改写成可分摊的成本条目。风险一旦可计价，资本才敢把触角伸得更远。",
+        d: "Pricing risk for cargoes and contracts makes long-distance business add up. Insurance rewrites wreck and default from personal misfortune into a shareable cost line. Once risk can be priced, capital dares to stretch farther.",
       },
       {
-        t: "实业",
+        t: "Industry",
         icon: "⚒",
         angle: 126,
-        d: "矿冶、纺织等实业承接信贷，也产出可抵押的现金流。没有实业底盘，大额政治贷很难持续滚动。利息最终要靠炉火与织机来偿还，而不是靠口号。",
+        d: "Mining, textiles, and other industries take credit and also yield pledgeable cash flow. Without an industrial base, large political loans rarely roll for long. Interest is repaid by furnace and loom, not by slogans.",
       },
       {
-        t: "地产",
+        t: "Landed property",
         icon: "⌂",
         angle: 198,
-        d: "城乡地产既是资产配置，也是信用的抵押物。商人—银行家的资产负债表里，常同时写着利息与地租。地契让纸面承诺落到可扣押的实物上。",
+        d: "Urban and rural estates are both asset allocation and collateral for credit. On a merchant-banker’s balance sheet, interest and ground rent often sit side by side. Deeds pin paper promises to seizable goods.",
       },
     ];
     return `
       <div class="ledger-x" data-interact="trades">
-        <p class="ledger-x-label">交互 · 账房罗盘（点印记展开）</p>
+        <p class="ledger-x-label">Interact · counting-house compass (tap a seal to expand)</p>
         <div class="trade-compass" data-trade-compass>
           <svg class="trade-compass-svg" viewBox="0 0 280 280" aria-hidden="true">
             <circle class="trade-rail" cx="140" cy="140" r="96" fill="none" />
@@ -476,7 +476,7 @@ function ledgerInteractHtml(entry) {
           </svg>
           <p class="trade-compass-core" data-trade-core>
             <span class="trade-core-icon" data-trade-core-icon>◎</span>
-            <span data-trade-core-name>点周围印记</span>
+            <span data-trade-core-name>Tap a surrounding seal</span>
           </p>
           ${trades
             .map(
@@ -489,37 +489,37 @@ function ledgerInteractHtml(entry) {
             )
             .join("")}
         </div>
-        <p class="trade-detail" data-trade-detail>点击罗盘上的行业印记，阅读展开介绍。</p>
+        <p class="trade-detail" data-trade-detail>Tap a trade seal on the compass to read the expanded note.</p>
       </div>`;
   }
 
   if (type === "chain") {
     const nodes = [
       {
-        t: "商人发料",
-        icon: "发",
-        d: "商人预付原料与规格，锁定交期与验收标准。资本先出手，把农户编进订单节奏：谁发料，谁就暂时握住整条链的节拍器。",
+        t: "Merchant supplies materials",
+        icon: "Out",
+        d: "The merchant advances raw stock and specifications, locking delivery dates and inspection standards. Capital moves first and pulls households into the order rhythm: who supplies materials briefly holds the metronome of the whole chain.",
       },
       {
-        t: "家内加工",
-        icon: "织",
-        d: "农户用家内时间加工，工具多属自家。资本省下厂房与常雇工，却把质量与工期风险推到家户——闲时劳动被写成可计算的工时。",
+        t: "Household processing",
+        icon: "Weave",
+        d: "Households work in domestic time; tools are often their own. Capital saves on workshops and permanent hires, yet pushes quality and deadline risk onto the household—idle labor is rewritten as countable hours.",
       },
       {
-        t: "成品交回",
-        icon: "验",
-        d: "成品验收、结算尾款；延误与瑕疵在此计价。议价权往往不在农户一边：交回这一刻，决定谁承担损耗、谁拿走差额。",
+        t: "Finished goods returned",
+        icon: "Check",
+        d: "Goods are inspected and balances settled; delay and defect are priced here. Bargaining power often does not sit with the household: the moment of return decides who bears loss and who takes the margin.",
       },
       {
-        t: "市集出口",
-        icon: "市",
-        d: "进入市集或出口通道，资本完成一轮周转，再准备下一包原料。回路合上，信用与货物一起离开村庄，朝更大的价格场走去。",
+        t: "Market & export",
+        icon: "Mart",
+        d: "Into the market or export channel, capital completes one turn and readies the next packet of materials. The loop closes; credit and goods leave the village together toward a larger price field.",
       },
     ];
     return `
       <div class="ledger-x" data-interact="chain">
-        <p class="ledger-x-label">线轴回路 · 按序绕行点亮</p>
-        <p class="chain-guide">引导：从左侧「商人发料」起，按箭头顺时针依次点亮四节点；中心会显示当前步骤。全圈点亮后，下方展开利弊对照。</p>
+        <p class="ledger-x-label">Spindle loop · light nodes in order</p>
+        <p class="chain-guide">Guide: start at left with “Merchant supplies materials,” then light the four nodes clockwise along the arrows; the center shows the current step. When the ring is fully lit, the pros-and-cons panel opens below.</p>
         <div class="chain-spindle" data-chain>
           <svg class="chain-spindle-svg" viewBox="0 0 280 280" aria-hidden="true">
             <defs>
@@ -540,8 +540,8 @@ function ledgerInteractHtml(entry) {
               })
               .join("")}
             <circle class="chain-hub" cx="140" cy="140" r="40" />
-            <text x="140" y="134" text-anchor="middle" class="chain-hub-icon" data-chain-hub-icon>轴</text>
-            <text x="140" y="152" text-anchor="middle" class="chain-hub-sub" data-chain-hub-name>出差制</text>
+            <text x="140" y="134" text-anchor="middle" class="chain-hub-icon" data-chain-hub-icon>Axis</text>
+            <text x="140" y="152" text-anchor="middle" class="chain-hub-sub" data-chain-hub-name>Putting-out</text>
           </svg>
           ${nodes
             .map(
@@ -554,22 +554,22 @@ function ledgerInteractHtml(entry) {
             )
             .join("")}
         </div>
-        <p class="chain-detail" data-chain-detail>下一步：点「商人发料」开始绕行。</p>
+        <p class="chain-detail" data-chain-detail>Next: tap “Merchant supplies materials” to begin the loop.</p>
         <div class="chain-proscons" hidden data-chain-done>
           <div class="chain-pro">
-            <h4>利</h4>
+            <h4>Pros</h4>
             <ul>
-              <li>资本无需置办全部工具与厂房，扩张可以更快铺开；订单来了就发包，订单少了就收缩。</li>
-              <li>把农村闲时劳动编进货币链条，家内时间变成可计价的工时单位。</li>
-              <li>产量与交期可按市集与出口订单调节，资本握住节拍，而不必日日盯着每一台织机。</li>
+              <li>Capital need not furnish every tool and workshop, so expansion can spread faster; orders arrive and are put out, then shrink when orders thin.</li>
+              <li>Rural idle time enters a money chain; household hours become priceable units of labor.</li>
+              <li>Output and deadlines can flex with market and export orders; capital holds the beat without watching every loom each day.</li>
             </ul>
           </div>
           <div class="chain-con">
-            <h4>弊</h4>
+            <h4>Cons</h4>
             <ul>
-              <li>农户议价弱，质量与工期风险被外推到家户；验收标准往往由发料方单方面解释。</li>
-              <li>依赖中间商传递规格与消息，信息不对称让利润差落在链条缝隙里。</li>
-              <li>危机时订单骤停，家内劳动首当其冲：没有厂房可关，只有停活与空闲的织具。</li>
+              <li>Households bargain weakly; quality and deadline risk are pushed outward onto the family; inspection standards are often read by the supplier alone.</li>
+              <li>Specs and news travel through middlemen; information asymmetry lets margins lodge in the chain’s seams.</li>
+              <li>In a crisis, orders stop cold and household labor takes the first hit: there is no workshop to shut, only idle looms and empty work.</li>
             </ul>
           </div>
         </div>
@@ -581,20 +581,20 @@ function ledgerInteractHtml(entry) {
       {
         id: "a",
         amt: 200000,
-        title: "选侯现金主通道",
-        src: "约为富格尔承担份额中，直接用于打通关键选侯现金与承诺的大宗。展览拆成便于点选的整数档，便于看见「主通道」如何先到位。没有这一档，后面的加码只是空话。",
+        title: "Main cash channel to the electors",
+        src: "Roughly the bulk of the Fugger share used to open key electors’ cash and pledges. The exhibition splits it into round, tappable tiers so you can see how the “main channel” arrives first. Without this tier, later top-ups are empty talk.",
       },
       {
         id: "b",
         amt: 200000,
-        title: "竞标对冲与加码",
-        src: "面对法兰西等对手加码，哈布斯堡一侧需要持续输血。此档对应「把票决拖过危险区」的加码部分，是用现金买来的政治时间。",
+        title: "Counter-bid hedge & top-up",
+        src: "Facing French and other rivals’ raises, the Habsburg side needed a continuous transfusion. This tier covers the top-up that “dragged the vote past the danger zone”—political time bought with cash.",
       },
       {
         id: "c",
         amt: 143385,
-        title: "余额凑齐 543,385",
-        src: "细数常见写作约 543,385（约占总额约 85 万的三分之二；其余韦尔瑟等分摊）。本档补齐零头，锁住富格尔份额，使私人信贷写成完整的一笔帝选账。",
+        title: "Balance to 543,385",
+        src: "Fine totals are often written as about 543,385 (roughly two-thirds of a total near 850,000; the rest shared by the Welser and others). This tier fills the remainder and locks the Fugger share so private credit writes as one complete imperial-election entry.",
       },
     ];
     const bagSvg = `
@@ -605,17 +605,17 @@ function ledgerInteractHtml(entry) {
       </svg>`;
     return `
       <div class="ledger-x" data-interact="florins">
-        <p class="ledger-x-label">弗罗林点亮 · 三钱袋分支</p>
-        <p class="ledger-x-note">点钱袋点亮金币；说明出现在袋下。</p>
+        <p class="ledger-x-label">Light the florins · three money-bag branches</p>
+        <p class="ledger-x-note">Tap a bag to light coins; the note appears under the bag.</p>
         <div class="florin-stack">
-          <div class="florin-coin-wrap" aria-label="可点亮的弗罗林">
+          <div class="florin-coin-wrap" aria-label="Florins you can light">
             <div class="florin-photo" data-florin-photo>
               <img class="florin-photo-base" src="/economy/florin_coin.jpg" alt="" />
               <div class="florin-photo-lit" data-florin-lit style="--lit:0%">
-                <img src="/economy/florin_coin.jpg" alt="弗罗林金币点亮" />
+                <img src="/economy/florin_coin.jpg" alt="Florin coin lighting up" />
               </div>
             </div>
-            <p class="florin-sum">已点亮 <strong data-florin-sum>0</strong> / 543,385</p>
+            <p class="florin-sum">Lit <strong data-florin-sum>0</strong> / 543,385</p>
           </div>
           <div class="florin-bags">
             ${branches
@@ -633,7 +633,7 @@ function ledgerInteractHtml(entry) {
               .join("")}
           </div>
         </div>
-        <p class="florin-done" hidden>三袋齐亮：整枚弗罗林点亮，富格尔帝选份额入账。</p>
+        <p class="florin-done" hidden>All three bags lit: the full florin lights; the Fugger imperial-election share is posted.</p>
       </div>`;
   }
 
@@ -649,7 +649,7 @@ function visibleNavIds(postedIds, questId) {
 function ledgerJournalHtml(postedIds, activeId, questId) {
   const ids = visibleNavIds(postedIds, questId);
   if (!ids.length) {
-    return `<p class="ledger-empty">过账推进后，左侧会逐笔出现条目；已出现的可点回看。</p>`;
+    return `<p class="ledger-empty">As you Post, entries appear one by one on the left; those already shown can be tapped to review.</p>`;
   }
   return `
     <ul class="ledger-journal-list">
@@ -675,7 +675,7 @@ function ledgerJournalHtml(postedIds, activeId, questId) {
         })
         .join("")}
     </ul>
-    <p class="ledger-side-hint">随过账一步步出现；点已出现的条目可回看。</p>
+    <p class="ledger-side-hint">Entries appear step by step as you Post; tap those already shown to review.</p>
   `;
 }
 
@@ -683,17 +683,17 @@ function ledgerRightHtml(entry, phase, chapterDone, allDone) {
   if (allDone) {
     return `
       <div class="ledger-finale">
-        <p class="ledger-finale-kicker">总账锁册</p>
+        <p class="ledger-finale-kicker">The books are closed</p>
         <h2 class="ledger-finale-title">Private credit, public power</h2>
         <p class="ledger-finale-text">
-          底盘、账房与帝选三册已齐。私人信贷在此不再是市集噪音，而是公共权力得以运转的现金条件——下一站，军事厅会继续追问谁付得起有组织的武力。
+          Base, counting-house, and imperial-election folios are complete. Private credit here is no longer market noise but the cash condition that lets public power run—next, the Military Hall keeps asking who can pay for organized force.
         </p>
         <figure class="ledger-finale-fig">
-          <img src="/economy/macro_empire.jpg" alt="查理五世宫廷寓意浮雕：私人信贷进入帝国政治的宏观场面" />
+          <img src="/economy/macro_empire.jpg" alt="Allegorical relief of Charles V’s court: private credit enters imperial politics on a macro stage" />
         </figure>
         <div class="hall-nav">
-          <a class="btn" href="#/military">下一站 · 军事厅 →</a>
-          <a class="btn btn-ghost" href="#/politics">← 政治厅</a>
+          <a class="btn" href="#/military">Next · Military Hall →</a>
+          <a class="btn btn-ghost" href="#/politics">← Politics Hall</a>
         </div>
       </div>
     `;
@@ -703,10 +703,10 @@ function ledgerRightHtml(entry, phase, chapterDone, allDone) {
     const next = economyThemes[entry.chapterIndex + 1];
     return `
       <div class="ledger-turn">
-        <p class="ledger-turn-kicker">${entry.pageLabel} · 三笔已齐</p>
-        <h2 class="ledger-turn-title">开新页</h2>
-        <p class="ledger-turn-text">本章分录已盖章入账。翻到${next ? next.pageLabel : "下一册"}，继续过账。</p>
-        <button type="button" class="btn" data-ledger-action="turn">开新页 →</button>
+        <p class="ledger-turn-kicker">${entry.pageLabel} · three entries complete</p>
+        <h2 class="ledger-turn-title">Turn the page</h2>
+        <p class="ledger-turn-text">This chapter’s entries are stamped and posted. Turn to ${next ? next.pageLabel : "the next folio"} and continue posting.</p>
+        <button type="button" class="btn" data-ledger-action="turn">Turn the page →</button>
       </div>
     `;
   }
@@ -721,7 +721,7 @@ function ledgerRightHtml(entry, phase, chapterDone, allDone) {
     return `
       <div class="ledger-read">
         <div class="ledger-read-top">
-          <p class="ledger-ref-lg">${entry.ref} · 已入账</p>
+          <p class="ledger-ref-lg">${entry.ref} · Posted</p>
           <span class="ledger-seal is-on" aria-hidden="true">${entry.seal}</span>
         </div>
         <h2 class="ledger-read-title">${entry.title}</h2>
@@ -734,7 +734,7 @@ function ledgerRightHtml(entry, phase, chapterDone, allDone) {
           ${hideSide ? "" : `<div class="ledger-read-media">${econMedia(entry)}</div>`}
         </div>
         ${ledgerInteractHtml(entry)}
-        <button type="button" class="btn" data-ledger-action="next"${needsGate ? " disabled" : ""}>继续下一笔 →</button>
+        <button type="button" class="btn" data-ledger-action="next"${needsGate ? " disabled" : ""}>Continue to next entry →</button>
       </div>
     `;
   }
@@ -742,12 +742,12 @@ function ledgerRightHtml(entry, phase, chapterDone, allDone) {
   if (phase === "stamp") {
     return `
       <div class="ledger-voucher is-posted">
-        <p class="ledger-voucher-label">已过账 · 待盖章</p>
+        <p class="ledger-voucher-label">Posted · awaiting Stamp</p>
         <p class="ledger-journal-line is-write">${entry.journal}</p>
         <p class="ledger-voucher-text">${entry.voucher}</p>
         <div class="ledger-stamp-row">
           <span class="ledger-seal" aria-hidden="true">${entry.seal}</span>
-          <button type="button" class="btn" data-ledger-action="stamp">盖章确认</button>
+          <button type="button" class="btn" data-ledger-action="stamp">Stamp to confirm</button>
         </div>
       </div>
     `;
@@ -755,30 +755,30 @@ function ledgerRightHtml(entry, phase, chapterDone, allDone) {
 
   return `
     <div class="ledger-voucher">
-      <p class="ledger-voucher-label">待过账单 · ${entry.pageLabel}</p>
+      <p class="ledger-voucher-label">Pending voucher · ${entry.pageLabel}</p>
       <h2 class="ledger-voucher-title">${entry.title}</h2>
       <p class="ledger-voucher-text">${entry.voucher}</p>
-      <p class="ledger-hint">过账后分录写入左页；盖章后展开本帖正文与交互。</p>
-      <button type="button" class="btn" data-ledger-action="post">过账入册</button>
+      <p class="ledger-hint">After Post, the entry writes to the left page; after Stamp, this folio’s body and interaction open.</p>
+      <button type="button" class="btn" data-ledger-action="post">Post to the book</button>
     </div>
   `;
 }
 
 export function economyView() {
   return `
-    <main class="screen economy" aria-label="经济厅">
+    <main class="screen economy" aria-label="Economy Hall">
       <header class="econ-mast">
-        <a class="link-back" href="#/gate">← 大门</a>
-        <p class="econ-mast-label">Ledger · 总账过账</p>
-        <h1 class="display">扩张的引擎</h1>
-        <p class="hall-kicker">九笔贯穿全厅 · 过账 → 盖章 → 开新页</p>
+        <a class="link-back" href="#/gate">← Gate</a>
+        <p class="econ-mast-label">Ledger · posting the books</p>
+        <h1 class="display">The engine of expansion</h1>
+        <p class="hall-kicker">Nine entries through the hall · Post → Stamp → Turn the page</p>
         <p class="hall-intro">
-          整厅是一本总账：右页待办，左页流水；盖章后展开正文与专项交互。册与册之间为书卷翻页。
+          The whole hall is one ledger: right page for work to do, left page for the running journal; after Stamp, body copy and a focused interaction open. Between folios, the book turns.
         </p>
       </header>
 
       <div class="ledger-progress-bar" aria-live="polite">
-        <p id="ledger-progress">已入账 0 / 9</p>
+        <p id="ledger-progress">Posted 0 / 9</p>
         <ol class="ledger-chapter-dots" id="ledger-chapter-dots">
           ${economyThemes
             .map(
@@ -789,12 +789,12 @@ export function economyView() {
         </ol>
       </div>
 
-      <div class="ledger-book" id="ledger-book" aria-label="经济厅总账">
+      <div class="ledger-book" id="ledger-book" aria-label="Economy Hall ledger">
         <div class="ledger-spine" aria-hidden="true"></div>
         <div class="ledger-flip-sheet" aria-hidden="true"></div>
         <section class="ledger-page ledger-page-left">
           <header class="ledger-page-head">
-            <p>章节目录 · 已出现可回看</p>
+            <p>Chapter list · tap to review once shown</p>
             <p id="ledger-page-label">${economyThemes[0].pageLabel}</p>
           </header>
           <div id="ledger-journal">${ledgerJournalHtml([], ledgerEntries[0].id, ledgerEntries[0].id)}</div>
@@ -806,10 +806,10 @@ export function economyView() {
 
       <footer class="politics-foot">
         <div class="hall-nav">
-          <a class="btn btn-ghost" href="#/politics">← 政治厅</a>
-          <a class="btn btn-ghost" href="#/gate">回大门</a>
+          <a class="btn btn-ghost" href="#/politics">← Politics Hall</a>
+          <a class="btn btn-ghost" href="#/gate">Back to Gate</a>
         </div>
-        <p class="credit">史实脊柱：尤金·赖斯、安东尼·格拉夫顿《现代欧洲史 01》· 第二章</p>
+        <p class="credit">Historical spine: Eugene F. Rice Jr. and Anthony Grafton, The Foundations of Early Modern Europe, 1460–1559 · Chapter 2</p>
       </footer>
     </main>
   `;
@@ -892,11 +892,11 @@ export function bindEconomy(root) {
     if (type === "smelt") {
       let step = 0;
       const viss = [
-        "木刻示意：坑道、排水与备料器械——实业扩张的第一环。",
-        "木刻示意：焙烧坑、炉群与烟道——鼓风把温度与杂质分开。",
-        "木刻示意：炉前作业——金属汇聚，准备成锭进入产业底盘。",
+        "Woodcut sketch: galleries, drainage, and prep engines—the first link of industrial expansion.",
+        "Woodcut sketch: roasting pits, furnace yards, and flues—blast separates heat from impurity.",
+        "Woodcut sketch: work at the furnace—metal gathers, ready to cast into the industrial base.",
       ];
-      const labels = ["进入鼓风熔炼 →", "进入出锭工序 →", "完成"];
+      const labels = ["Enter blast smelting →", "Enter casting →", "Done"];
       const btn = box.querySelector("[data-smelt-next]");
       const visEl = box.querySelector("[data-vis]");
       const flowEl = box.querySelector("[data-smelt-flow]");
@@ -908,7 +908,7 @@ export function bindEconomy(root) {
         });
         if (visEl) visEl.textContent = viss[step];
         if (flowEl) flowEl.innerHTML = smeltStepVisual(step);
-        if (btn) btn.textContent = labels[step] || "完成";
+        if (btn) btn.textContent = labels[step] || "Done";
         if (step === 2) {
           btn.hidden = true;
           box.querySelector(".smelt-done")?.removeAttribute("hidden");
@@ -934,7 +934,7 @@ export function bindEconomy(root) {
         el.classList.add("is-found");
         el.setAttribute("aria-pressed", "true");
         box.querySelector(`.antwerp-legend li[data-hub="${id}"]`)?.classList.add("is-done");
-        if (detail) detail.textContent = `已确认：${label}（${seen.size}/4）`;
+        if (detail) detail.textContent = `Confirmed: ${label} (${seen.size}/4)`;
         if (nEl) nEl.textContent = String(seen.size);
         if (seen.size >= 4) unlockNext();
       };
@@ -970,7 +970,12 @@ export function bindEconomy(root) {
 
     if (type === "chain") {
       let i = 0;
-      const labels = ["商人发料", "家内加工", "成品交回", "市集出口"];
+      const labels = [
+        "Merchant supplies materials",
+        "Household processing",
+        "Finished goods returned",
+        "Market & export",
+      ];
       const detail = box.querySelector("[data-chain-detail]");
       const hubIcon = box.querySelector("[data-chain-hub-icon]");
       const hubName = box.querySelector("[data-chain-hub-name]");
@@ -981,7 +986,7 @@ export function bindEconomy(root) {
           btn.classList.add("is-on");
           btn.classList.remove("is-hint");
           if (detail) detail.textContent = btn.dataset.chainText || "";
-          if (hubIcon) hubIcon.textContent = btn.dataset.chainIcon || "轴";
+          if (hubIcon) hubIcon.textContent = btn.dataset.chainIcon || "Axis";
           if (hubName) hubName.textContent = btn.dataset.chainName || "";
           i += 1;
           const next = box.querySelector(`.chain-bead[data-chain-i="${i}"]`);
@@ -989,11 +994,11 @@ export function bindEconomy(root) {
             next.disabled = false;
             next.classList.add("is-hint");
             if (detail && i < 4) {
-              detail.textContent = `${btn.dataset.chainText || ""}\n→ 下一步：点「${labels[i]}」`;
+              detail.textContent = `${btn.dataset.chainText || ""}\n→ Next: tap “${labels[i]}”`;
             }
           }
           if (i >= 4) {
-            if (detail) detail.textContent = "全圈已点亮。下方对照利弊，然后可继续下一笔。";
+            if (detail) detail.textContent = "Full ring lit. Weigh pros and cons below, then continue to the next entry.";
             box.querySelector("[data-chain-done]")?.removeAttribute("hidden");
             unlockNext();
           }
@@ -1062,7 +1067,7 @@ export function bindEconomy(root) {
     if (freeBrowse) {
       const nextBtn = rightEl.querySelector('[data-ledger-action="next"]');
       if (nextBtn) {
-        nextBtn.textContent = "回到当前进度 →";
+        nextBtn.textContent = "Return to current progress →";
         nextBtn.disabled = false;
         nextBtn.dataset.ledgerAction = "resume";
       }
@@ -1159,16 +1164,16 @@ export function bindEconomy(root) {
     const postedCount = posted.length;
     const questRef = ledgerEntries[quest.index]?.ref || "—";
     if (phase === "finale") {
-      progressEl.textContent = "总账锁册 · 9 / 9";
+      progressEl.textContent = "The books are closed · 9 / 9";
     } else if (freeBrowse) {
-      progressEl.textContent = `回看 ${entry?.ref || "—"} · 主线进度 ${questRef}（已入账 ${postedCount}/9）`;
+      progressEl.textContent = `Reviewing ${entry?.ref || "—"} · main progress ${questRef} (Posted ${postedCount}/9)`;
     } else {
-      progressEl.textContent = `已入账 ${postedCount} / 9 · 当前 ${entry?.ref || "—"}`;
+      progressEl.textContent = `Posted ${postedCount} / 9 · current ${entry?.ref || "—"}`;
     }
 
     if (phase === "finale") {
       freeBrowse = false;
-      pageLabelEl.textContent = "锁册";
+      pageLabelEl.textContent = "Closed";
       journalEl.innerHTML = ledgerJournalHtml(posted, viewingId, questEntryId());
       rightEl.innerHTML = ledgerRightHtml(entry || ledgerEntries[8], phase, false, true);
       refreshDots();
@@ -1194,11 +1199,11 @@ export function bindEconomy(root) {
       rightEl.innerHTML = ledgerRightHtml(viewed, "read", false, false);
       const nextBtn = rightEl.querySelector('[data-ledger-action="next"]');
       if (nextBtn && freeBrowse) {
-        nextBtn.textContent = "回到当前进度 →";
+        nextBtn.textContent = "Return to current progress →";
         nextBtn.disabled = false;
         nextBtn.dataset.ledgerAction = "resume";
       } else if (nextBtn && viewingId !== entry.id) {
-        nextBtn.textContent = "回到当前待办 →";
+        nextBtn.textContent = "Return to current voucher →";
         nextBtn.disabled = false;
       }
       refreshDots();

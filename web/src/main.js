@@ -11,125 +11,125 @@ import { mountLedgerGame } from "./military-ledger.js";
 const themes = [
   {
     id: "empire",
-    title: "同一家族，多块领地",
+    title: "One family, many territories",
     teaser:
-      "成片点亮的西班牙、低地、意大利与奥地利核心，同属一人名下：西班牙的查理一世，也是神圣罗马帝国的查理五世。",
+      "Spain, the Low Countries, Italy, and the Austrian core light up together under one name: Charles I of Spain, also Charles V of the Holy Roman Empire.",
     slides: [
       {
-        title: "欧洲棋盘：同一君主，多套制度",
+        title: "A European chessboard: one ruler, many institutions",
         paras: [
-          "若只把「早期现代国家」理解成后来教科书里的单一民族国家，查理一世的地图几乎无法读懂。他于 1500 年生于低地根特，母系连着卡斯蒂利亚与阿拉贡，父系连着勃艮第遗产与哈布斯堡奥地利；少年时已在尼德兰贵族礼仪中长大，却又必须学会用西班牙语与卡斯蒂利亚人说话。1516 年起，他在西班牙以查理一世之名继承天主教双王留下的诸王国：卡斯蒂利亚、阿拉贡，以及那不勒斯、西西里等阿拉贡在地中海的王冠。对西班牙臣民，他首先是「他们的国王」——要尊重各地议会（Cortes）、城市特权与财政习惯，而不能把整块伊比利亚当成一块可随意涂色的版图。",
-          "同一张脸，稍后又在法兰克福的选侯票决中成为神圣罗马帝国的查理五世。把这些名字叠在一起，你会发现：把它们焊接起来的，不是共同语言或共同民族感情，而是家族继承、联姻契约，以及一台不断奔走的朝廷。他每到一处，都必须表现得像「只属于这里的国王」——同一主权，分属多套法律、议会与习惯。因此，地图上的阴影与线纹不是征服进度条，而是一次视觉上的点名：西班牙诸王国、低地、意大利地带、奥地利核心，各保制度，却共戴一人。成片字幕 One family, many territories，说的正是这种复合君主国：所谓「查理的帝国」，从来不是一块涂成同色的大陆，而是一张被家族名号勉强缝合的欧洲棋盘。",
+          "If “early modern state” means only the later textbook nation-state, Charles I’s map scarcely makes sense. Born in 1500 at Ghent in the Low Countries, he was linked through his mother to Castile and Aragon, and through his father to the Burgundian inheritance and Habsburg Austria. As a youth he grew up in Netherlandish noble etiquette, yet had to learn to speak Spanish with Castilians. From 1516 he inherited, in Spain as Charles I, the kingdoms left by the Catholic Monarchs: Castile, Aragon, and Aragon’s Mediterranean crowns such as Naples and Sicily. To Spanish subjects he was first “their king”—bound to respect local Cortes, urban privileges, and fiscal custom, not to treat Iberia as a blank map he could recolor at will.",
+          "The same face later became Charles V of the Holy Roman Empire through the electors’ vote at Frankfurt. Stack the names and you see what welded them: not a shared language or national feeling, but dynastic inheritance, marriage contracts, and a court forever on the move. Wherever he arrived, he had to act as “king of this place alone”—one sovereignty, many laws, assemblies, and customs. The map’s shadows and hatchings are therefore not a conquest progress bar, but a visual roll call: the Spanish kingdoms, the Low Countries, the Italian zone, and the Austrian core kept their institutions while sharing one person. The film subtitle One family, many territories names this composite monarchy: “Charles’s empire” was never one continent painted a single color, but a European chessboard only loosely stitched by a family name.",
         ],
         src: "/politics/map_empire.png",
-        alt: "查理五世欧洲复合领地示意地图",
-        caption: "欧洲复合领地总图",
+        alt: "Schematic map of Charles V’s composite European territories",
+        caption: "Composite European territories at a glance",
       },
       {
-        title: "坐像中的两张面孔",
+        title: "Two faces in the seated portrait",
         paras: [
-          "左边是提香画室一系的坐像：黑衣、金羊毛项链、略显疲倦的侧脸——更接近西班牙宫廷所熟悉的「查理一世」形象，不以甲胄夸示武力，而以沉静与礼仪示人。右边是后世刻成的「皇帝」像：月桂、甲胄、双鹰与战利品环绕，把同一个人写成罗马式凯旋的查理五世。展览把两张图并置，不是说历史上真有两个查理，而是要让观众看见：双重名号要求同一个人用两套政治语言说话。",
-          "对卡斯蒂利亚臣民，他是要谈判财政需索、安抚城市特权的国王；对神罗选侯与德意志诸侯，他是要主持帝国议会、应付宗教裂痕的皇帝。肖像本身就是早期现代政治的媒介：它让「最高权威」可以被悬挂、被复制、被看见。复合帝国最终仍要落到一张会衰老、会决断、也会被反抗的脸上——左边是治理的面孔，右边是帝国名义的面孔。",
+          "On the left, a seated likeness from Titian’s circle: black dress, the Order of the Golden Fleece, a slightly weary profile—closer to the “Charles I” Spanish courts knew, showing quiet and ceremony rather than armored force. On the right, a later “emperor” image: laurel, armor, the double eagle and trophies, rewriting the same man as a Roman-style triumphant Charles V. The exhibition pairs them not to invent two Charleses, but to show that a double title demanded two political languages from one person.",
+          "To Castilian subjects he was a king who negotiated fiscal demands and soothed urban privileges; to imperial electors and German princes he was an emperor who had to preside over diets and face religious fracture. Portraiture itself was an early modern political medium: it made “supreme authority” hangable, reproducible, and visible. The composite empire still ended on a face that aged, decided, and could be resisted—governance on the left, imperial title on the right.",
         ],
-        caption: "并置对照：同一人，两套政治语言",
+        caption: "Paired contrast: one person, two political languages",
         images: [
           {
             src: "/politics/charles_i_spain_seated.jpg",
-            alt: "提香画室一系：西班牙查理一世坐像",
-            label: "西班牙的查理一世",
+            alt: "Titian circle: seated portrait of Charles I of Spain",
+            label: "Charles I of Spain",
           },
           {
             src: "/politics/charles_v_emperor.jpg",
-            alt: "查理五世皇帝像版画：月桂、甲胄与双鹰",
-            label: "神罗的查理五世",
+            alt: "Emperor Charles V engraving: laurel, armor, and double eagle",
+            label: "Charles V of the Holy Roman Empire",
           },
         ],
       },
       {
-        title: "帝国如何聚拢",
+        title: "How the empire gathered",
         paras: [
-          "这张「帝国」并非一次征服画出来的，而是几代联姻与继承叠出来的。母系：胡安娜与腓力联姻之后，卡斯蒂利亚—阿拉贡的王冠、人口与税收，连同阿拉贡在那不勒斯、西西里的地中海航线，落到查理名下，使他在西班牙成为查理一世。父系：勃艮第公爵遗产带来尼德兰诸省的城市、港口与特权网络；哈布斯堡奥地利世袭领地则把他钉在中欧边疆。没有伊比利亚这块基座，低地与意大利战场很难被同一只手同时握住；但基座也不等于全部——根特长大的君主，始终带着低地政治的记忆。",
-          "1519 年的帝选，把家族遗产抬成「基督教世界领导权」的公开竞争：选侯票决需要金钱与承诺，富格尔信贷因此直接进入最高政治。当选之后，他才同时拥有西班牙国王与神圣罗马帝国皇帝两套名号。把伊比利亚从地图上单独切开，是为了提醒获得顺序：先有可动员的西班牙资源，再有帝国名义；而米兰等地的争夺、与瓦卢瓦和奥斯曼的对峙，都建立在这套已经聚拢、却从未真正合一的复合结构之上。",
+          "This “empire” was not drawn by a single conquest, but stacked by generations of marriage and inheritance. Through the maternal line: after Joanna married Philip, the crowns, people, and taxes of Castile–Aragon—and Aragon’s Mediterranean routes to Naples and Sicily—passed to Charles, making him Charles I in Spain. Through the paternal line: the Burgundian ducal inheritance brought the cities, ports, and privilege networks of the Netherlandish provinces; Habsburg Austria’s hereditary lands fixed him on Central Europe’s frontier. Without the Iberian base, Low Country and Italian theaters were hard for one hand to hold at once; yet the base was not the whole—the Ghent-raised ruler always carried Low Country political memory.",
+          "The 1519 imperial election raised family inheritance into an open contest for “leadership of Christendom”: electors’ votes needed money and promises, so Fugger credit entered highest politics directly. Only after election did he hold both titles—king of Spain and Holy Roman Emperor. Cutting Iberia out of the map alone reminds us of the order of acquisition: first mobilizable Spanish resources, then imperial title; contests over Milan and the like, and confrontation with Valois and Ottoman powers, all rested on this already gathered, never truly unified composite structure.",
         ],
         src: "/politics/piece_iberia.png",
-        alt: "伊比利亚领地切块",
-        caption: "继承、联姻与 1519 帝选",
+        alt: "Iberian territories as a cut-out piece",
+        caption: "Inheritance, marriage, and the 1519 imperial election",
       },
     ],
   },
   {
     id: "bodin",
-    title: "博丹的主权",
+    title: "Bodin’s sovereignty",
     teaser:
-      "主权被说成最高、绝对且持久；可立法、可废法。但它并非无法无天——神法与自然法仍勒住君主的缰绳。",
+      "Sovereignty is called highest, absolute, and perpetual; it can make law and unmake law. Yet it is not lawlessness—divine and natural law still hold the monarch’s reins.",
     slides: [
       {
-        title: "可被看见的「最高」",
+        title: "A “highest” that can be seen",
         paras: [
-          "16 世纪的西欧君主喜欢自称「不受他人之令」。法国、西班牙与英格兰的宫廷法学家，纷纷从罗马法传统里打捞出「君主所悦即具法律效力」一类的说法。让·博丹在宗教战争撕裂的法兰西写出《共和六书》，把主权整理成近乎几何学的定义：它是共同体中最高、绝对且持久的权力，核心权能是立法，并且可以废改既有法律。对展览而言，这句话的用处不在背诵定义，而在提醒观众：当征税、铸币、宣战、终审与常备武力从封建碎片中收回时，君主需要一套能够被看见、被论证的「最高性」。",
-          "1508 年布尔克迈尔为马克西米利安一世所作马上像，旗面与马衣上的双头鹰，正是这种视觉语言。鹰徽、纹章与马上英姿，把抽象的帝国名义画进可流传的图像。查理一世继承的，不只是土地与头衔，还有一套把「帝国」写进旗帜的宣传传统——它与西班牙王冠叠在同一人身上，使「最高」既能被法理定义，也能被臣民看见。",
+          "Sixteenth-century western European rulers liked to claim they were “subject to no one else’s command.” Court jurists in France, Spain, and England fished from Roman-law tradition maxims such as “what pleases the prince has the force of law.” In a France torn by religious war, Jean Bodin wrote the Six Books of the Commonwealth and arranged sovereignty into a near-geometric definition: the highest, absolute, and perpetual power in a commonwealth, whose core capacity is legislation—and the power to repeal or amend existing law. For this exhibition the point is not to memorize the formula, but to remind visitors: when taxation, coinage, war-making, final judgment, and standing force were drawn back from feudal fragments, princes needed a “supremacy” that could be seen and argued.",
+          "Burgkmair’s 1508 equestrian woodcut of Maximilian I—with the double-headed eagle on banner and horse-cloth—is that visual language. Eagle, arms, and mounted prowess painted abstract imperial title into circulating images. What Charles I inherited was not only land and titles, but a propaganda tradition that wrote “empire” onto flags—stacked with the Spanish crown on one person, so that “highest” could be defined in law and seen by subjects.",
         ],
         src: "/politics/hre_maximilian.jpg",
-        alt: "马克西米利安一世马上像木刻，旗上双头鹰",
-        caption: "双头鹰与帝国名义",
+        alt: "Equestrian woodcut of Maximilian I with double-headed eagle on the banner",
+        caption: "Double eagle and imperial title",
       },
       {
-        title: "王意如何落到地方",
+        title: "How the royal will reached the localities",
         paras: [
-          "主权若只停留在法谚与纹章上，仍是纸面的最高。卡斯蒂利亚的 corregidor 是国王任命并发薪的地方代理人：任期有限，回避本籍，禁止与地方派系勾结，卸任还要接受考绩。英格兰的治安法官在功能上可与之对照——都是把王意送进城市与郡的管道。代理人越深入地方，君主的「最高」才越像真实权力，而不只是宫廷里的宣言。",
-          "伊莎贝拉时代留下的时辰书提醒我们：西班牙王权早有自己的书写与礼仪传统，权威并不从查理一世才开始发明。到他治下，代理人越深入，摩擦也越响。1520–1521 年卡斯蒂利亚公社起义，正是城市与贵族对「外来朝廷」与财政需索的激烈反弹。起义最终被压下，却留下清晰线索：复合帝国的主权主张，从来不是在真空里颁布的法令，而是一场持续的谈判、监视与镇压。",
+          "If sovereignty stayed only in legal maxims and heraldry, it remained paper supremacy. Castile’s corregidor was a royal agent appointed and paid by the king: limited term, barred from serving in his home district, forbidden to collude with local factions, and subject to audit on leaving office. England’s justices of the peace offer a functional parallel—both were channels that carried the royal will into towns and counties. The deeper agents reached into localities, the more the monarch’s “highest” looked like real power, not a court declaration alone.",
+          "A book of hours from Isabella’s age reminds us that Spanish kingship already had its own scribal and ceremonial traditions; authority was not invented with Charles I. Under him, the deeper the agents went, the louder the friction. The Castilian Comuneros revolt of 1520–1521 was cities’ and nobles’ fierce backlash against an “alien court” and fiscal demands. The rising was crushed, yet left a clear trail: composite-imperial claims of sovereignty were never decrees issued in a vacuum, but ongoing negotiation, surveillance, and repression.",
         ],
         src: "/politics/spain_isabella_hours.jpg",
-        alt: "卡斯蒂利亚伊莎贝拉时辰书手稿页",
-        caption: "书写、礼仪与地方管道",
+        alt: "Manuscript page from Isabella of Castile’s book of hours",
+        caption: "Writing, ceremony, and local channels",
       },
       {
-        title: "绝对，却不是空白支票",
+        title: "Absolute—yet not a blank check",
         paras: [
-          "博丹同时写下那道常被忽略的边界：绝对，并不等于为所欲为。神法与自然法仍约束君主；他甚至举西班牙国王与议会（Cortes）之间的约定为例——为换取税收而承诺纠正弊政的契约，在他看来具有约束力。换言之，早期现代的主权叙事若删掉这道宗教与自然法的缰绳，就会滑向后世漫画式的暴君肖像。",
-          "这面纹章圆窗把「最高」画成王冠、宝球与双头鹰，外圈却密布各地盾徽：权力要被看见，也必须落到一块块具体领地上。复合帝国的君主既需要调度多块领地的「最高」，也必须在各地议会、城市特权与宗教舆论之间折冲。本厅坚持把边界写进叙事，是为了避免简笔画：主权公式对着真人与真领地时，才显出它的分量与限度。",
+          "Bodin also wrote the boundary often overlooked: absolute does not mean doing whatever one pleases. Divine and natural law still bind the monarch; he even cites agreements between the Spanish king and the Cortes—promises to remedy abuses in return for taxes—as binding. Strip early modern sovereignty of this religious and natural-law rein, and the story slides toward a later cartoon of tyranny.",
+          "This heraldic roundel paints “highest” as crown, orb, and double eagle, yet packs local shields around the rim: power must be seen, and must land on concrete territories. A composite emperor needed to mobilize “highest” across many lands while bargaining among local diets, urban privileges, and religious opinion. This hall keeps the boundary in the narrative to avoid a stick-figure story: Bodin’s formula shows its weight and its limits only when set against real people and real territories.",
         ],
         src: "/politics/heraldic_zurich.jpg",
-        alt: "纹章圆窗：王冠、双头鹰与环绕的各地盾徽",
-        caption: "最高可见，却仍落到各地盾徽上",
+        alt: "Heraldic roundel: crown, double eagle, and surrounding local shields",
+        caption: "Highest made visible—still landing on local shields",
       },
     ],
   },
   {
     id: "board",
-    title: "1494 之后的欧洲棋盘",
+    title: "Europe’s chessboard after 1494",
     teaser:
-      "查理八世一脚踏进意大利，半岛的邦联式自主被拖进更大的欧洲战争；此后半个世纪，哈布斯堡、瓦卢瓦与奥斯曼轮番坐庄。",
+      "Charles VIII stepped into Italy and dragged the peninsula’s confederate autonomy into a larger European war; for the next half-century Habsburg, Valois, and Ottoman powers took turns at the table.",
     slides: [
       {
-        title: "会用炮的王权战争",
+        title: "Royal war that used cannon",
         paras: [
-          "1494 年，法王查理八世率军翻越阿尔卑斯，宣称对那不勒斯的继承权。对意大利各邦而言，这不只是一次外敌入侵，更是一次结构断裂：文艺复兴时期彼此制衡的半岛政治，被强行并入法兰西、西班牙与帝国之间的大博弈。米兰、威尼斯、教皇国与佛罗伦萨发现，自己再也无法把战争关在「意大利事务」的门内。从这一年起，意大利变成欧洲主权国家互相试验火力、财政与同盟的露天舞台。",
-          "约 1512–1516 年木刻所绘的南锡战役提醒我们：王权战争的远景里已出现火炮。当法军再次进入意大利时，半岛面对的正是这种会用炮的战争机器，而不再是邦联内部的旧式摩擦。火器、财政与常备军力，从此与王朝继承诉讼缠在一起，把「地方争端」抬升为欧洲级的棋局。",
+          "In 1494 King Charles VIII of France crossed the Alps claiming the inheritance of Naples. For the Italian states this was not only an invasion but a structural break: Renaissance peninsula politics of mutual balance was forced into the great game among France, Spain, and the Empire. Milan, Venice, the Papal States, and Florence found they could no longer keep war inside the door marked “Italian affairs.” From that year Italy became an open stage where European sovereign states tested firepower, finance, and alliance.",
+          "A woodcut of the Battle of Nancy from about 1512–1516 reminds us that cannon already stood in the distant view of royal war. When French armies re-entered Italy, the peninsula faced this cannon-using war machine, not the older frictions of a peninsula confederacy. Firearms, finance, and standing force thenceforward tangled with dynastic inheritance suits, lifting “local disputes” into a European-scale game.",
         ],
         src: "/politics/italy_french_king_war.jpg",
-        alt: "南锡战役木刻中的王权战争",
-        caption: "火炮进入画面的时代",
+        alt: "Woodcut of royal war at the Battle of Nancy",
+        caption: "The age when cannon entered the picture",
       },
       {
-        title: "低地：棋盘另一只手",
+        title: "The Low Countries: the board’s other hand",
         paras: [
-          "到了 1519–1559，棋盘上的主角换成查理五世、弗朗索瓦一世与苏莱曼。主轴有两条：哈布斯堡对瓦卢瓦，争夺意大利霸权与欧洲均势；哈布斯堡对奥斯曼，在中欧与地中海形成帝国级对峙。法国甚至可以与奥斯曼联手，从两侧挤压哈布斯堡——教派口号挡不住王朝利益的计算。1525 年帕维亚之战，弗朗索瓦一世被俘，是这条主轴上最戏剧性的一幕。",
-          "安特卫普的天际线说明：低地城市的贸易、汇票与港口税收，是哈布斯堡把西班牙基座推上欧洲棋盘的另一只手。丢一块领地，就少一份征兵名册与信贷网络。读地图时若只盯着王冠与战场，容易漏掉城市天际线里那套更安静、却同样决定胜负的钱与货。",
+          "By 1519–1559 the board’s protagonists were Charles V, Francis I, and Süleyman. Two axes ran through it: Habsburg against Valois for Italian hegemony and European balance; Habsburg against Ottoman in an imperial confrontation across Central Europe and the Mediterranean. France could even join hands with the Ottomans to squeeze the Habsburgs from both sides—confessional slogans did not stop dynastic calculation. Pavia in 1525, when Francis I was captured, was the most dramatic scene on that axis.",
+          "Antwerp’s skyline shows that Low Country trade, bills of exchange, and port taxes were the other hand that pushed the Spanish base onto Europe’s board. Lose a territory and you lose a muster roll and a credit network. Read the map only for crowns and battlefields, and you miss the quieter money and goods in the urban skyline that also decided who won.",
         ],
         src: "/politics/low_antwerp.jpg",
-        alt: "安特卫普圣母大教堂版画",
-        caption: "城市、汇票与港口",
+        alt: "Engraving of Antwerp’s Cathedral of Our Lady",
+        caption: "Cities, bills of exchange, and ports",
       },
       {
-        title: "印刷把争论甩进政治",
+        title: "Print threw argument into politics",
         paras: [
-          "读这盘棋，最容易犯的错，是用 19 世纪民族国家的词汇去命名 16 世纪的玩家。查理五世争的是家族遗产与基督教世界的领导权想象；弗朗索瓦一世争的是瓦卢瓦荣誉与意大利据点；苏莱曼争的是帝国边疆与地中海通道。联姻、继承、赎俘与停战条约，往往比「民族解放」更接近当事人的语言。成片里那些被点亮的领地，正是这盘棋的实体筹码。",
-          "1521 年克拉纳赫的木刻对页，把教权争论做成可流通的图像：左边受嘲弄的基督，右边受朝拜的教皇。印刷术让争论离开讲坛，进入市集与酒馆。本厅不展开路德传记，只取一句旁支：改宗争端会迅速拖进领地政治与王朝结盟——图像战争，从来不只是神学辩论的插图。",
+          "The easiest mistake in reading this board is to name sixteenth-century players with nineteenth-century nation-state vocabulary. Charles V contested family inheritance and an imagined leadership of Christendom; Francis I contested Valois honor and Italian footholds; Süleyman contested imperial frontiers and Mediterranean passages. Marriage, inheritance, ransom, and truce treaties were often closer to the actors’ own language than “national liberation.” The territories lit in the film are this game’s solid counters.",
+          "Cranach’s 1521 woodcut facing pages turn a quarrel over ecclesiastical power into circulating images: Christ mocked on the left, the pope adored on the right. Print took argument off the pulpit and into markets and taverns. This hall does not open a Luther biography; it takes only a side note: confessional disputes quickly dragged into territorial politics and dynastic alliance—image war was never merely an illustration of theological debate.",
         ],
         src: "/politics/luther_print.jpg",
-        alt: "克拉纳赫印刷木刻对页",
-        caption: "图像战争的旁支提醒",
+        alt: "Cranach printed woodcut facing pages",
+        caption: "A side reminder of image war",
       },
     ],
   },
@@ -150,86 +150,86 @@ function route() {
 /** 图像版权总表（docs/图像版权总表.md）已验 14 张 · 结束页图注 */
 const IMAGE_CREDITS = [
   {
-    hall: "政治",
-    title: "查理五世坐像",
-    credit: "常归于提香，1548 · PD",
+    hall: "Politics",
+    title: "Seated portrait of Charles V",
+    credit: "Usually attributed to Titian, 1548 · PD",
     href: "https://commons.wikimedia.org/wiki/File:Titian_-_Portrait_of_Charles_V_Seated_-_WGA22964.jpg",
   },
   {
-    hall: "政治",
-    title: "神罗双头鹰纹章",
-    credit: "矢量据约 16 世纪中样式 · CC BY-SA 3.0",
+    hall: "Politics",
+    title: "Holy Roman double-headed eagle arms",
+    credit: "Vector after mid-16th-century style · CC BY-SA 3.0",
     href: "https://commons.wikimedia.org/wiki/File:Holy_Roman_Empire_Arms-double_head.svg",
   },
   {
-    hall: "政治",
-    title: "《教会的巴比伦之囚》封面",
+    hall: "Politics",
+    title: "Cover of The Babylonian Captivity of the Church",
     credit: "Luther, 1520 · PD",
     href: "https://commons.wikimedia.org/wiki/File:Babylonian_captivity_of_the_church.jpg",
   },
   {
-    hall: "政治",
-    title: "哈布斯堡领地图（1547）",
+    hall: "Politics",
+    title: "Map of Habsburg lands (1547)",
     credit: "Cambridge Modern History Atlas, 1912 · PD",
     href: "https://commons.wikimedia.org/wiki/File:Habsburg_Map_1547.jpg",
   },
   {
-    hall: "经济",
-    title: "富格尔肖像",
+    hall: "Economy",
+    title: "Portrait of Fugger",
     credit: "Dürer, c.1519 · PD",
     href: "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_080.jpg",
   },
   {
-    hall: "经济",
-    title: "安特卫普鸟瞰",
-    credit: "Braun & Hogenberg, 1572 · PD（对照）",
+    hall: "Economy",
+    title: "Bird’s-eye view of Antwerp",
+    credit: "Braun & Hogenberg, 1572 · PD (comparison)",
     href: "https://commons.wikimedia.org/wiki/File:City_of_Antwerp,_1572.jpg",
   },
   {
-    hall: "经济",
-    title: "《论矿冶》抽水泵",
+    hall: "Economy",
+    title: "Pump from De re metallica",
     credit: "Agricola 1556 / Wellcome · CC BY 4.0",
     href: "https://commons.wikimedia.org/wiki/File:Agricola,_De_re_metallica_libri_XII._Wellcome_L0006609.jpg",
   },
   {
-    hall: "经济",
-    title: "坎蒂诺平面图",
-    credit: "葡萄牙, 1502 · PD",
+    hall: "Economy",
+    title: "Cantino planisphere",
+    credit: "Portuguese, 1502 · PD",
     href: "https://commons.wikimedia.org/wiki/File:Cantino_planisphere_(1502).jpg",
   },
   {
-    hall: "经济",
-    title: "美第奇纹章",
-    credit: "矢量据 16 世纪样式 · PD-ineligible",
+    hall: "Economy",
+    title: "Medici coat of arms",
+    credit: "Vector after 16th-century style · PD-ineligible",
     href: "https://commons.wikimedia.org/wiki/File:Medici_coat_of_arms.svg",
   },
   {
-    hall: "军事",
-    title: "卡尔文战役",
+    hall: "Military",
+    title: "Battle of Calven",
     credit: "Schilling, 1513 · PD",
     href: "https://commons.wikimedia.org/wiki/File:Schlacht_an_der_Calven.jpg",
   },
   {
-    hall: "军事",
-    title: "火绳枪实物",
-    credit: "c.1510；德意志国家博物馆 · CC BY 2.0",
+    hall: "Military",
+    title: "Arquebus (object)",
+    credit: "c.1510; Germanisches Nationalmuseum · CC BY 2.0",
     href: "https://commons.wikimedia.org/wiki/File:Arquebus,_c._1510,_Germanisches_Nationalmuseum.jpg",
   },
   {
-    hall: "军事",
-    title: "杜勒·格里特巨炮",
-    credit: "器物 15 世纪前半；2014 摄影 · CC BY 3.0",
+    hall: "Military",
+    title: "Dürer’s Dulle Griet great bombard",
+    credit: "Object first half of 15th c.; photograph 2014 · CC BY 3.0",
     href: "https://commons.wikimedia.org/wiki/File:Dulle_Griet_Gent.JPG",
   },
   {
-    hall: "军事",
-    title: "马克西米利安甲",
-    credit: "德, c.1510–1520；Walters · 器物 PD；照片 CC BY-SA 3.0",
+    hall: "Military",
+    title: "Maximilian armor",
+    credit: "German, c.1510–1520; Walters · object PD; photo CC BY-SA 3.0",
     href: "https://commons.wikimedia.org/wiki/File:German_-_Maximilian_Armor_-_Walters_51584.jpg",
   },
   {
-    hall: "军事",
-    title: "莫拉特相关场面",
+    hall: "Military",
+    title: "Scene related to Morat",
     credit: "Schilling, 1513 · PD",
     href: "https://commons.wikimedia.org/wiki/File:Schilling_battle_morat.jpg",
   },
@@ -246,31 +246,31 @@ function endView() {
   ).join("");
 
   return `
-    <main class="screen end" aria-label="展览结束">
-      <p class="eyebrow">Closing · 离开展览</p>
-      <h1 class="display">带走的问题</h1>
+    <main class="screen end" aria-label="End of the exhibition">
+      <p class="eyebrow">Closing · Leaving the exhibition</p>
+      <h1 class="display">A question to take with you</h1>
       <p class="lede end-question">
-        当武力、金钱与立法权同时集中到君主手里，普通人还剩下什么谈判空间？
+        When force, money, and the power to make law concentrate in the monarch’s hands, what room to negotiate remains for ordinary people?
       </p>
 
       <section class="end-block" aria-labelledby="end-thanks-title">
-        <h2 id="end-thanks-title" class="end-block-title">致谢</h2>
+        <h2 id="end-thanks-title" class="end-block-title">Acknowledgements</h2>
         <p class="end-block-text">
-          史实脊柱：Rice &amp; Grafton,
+          Historical spine: Eugene F. Rice Jr. and Anthony Grafton,
           <em>The Foundations of Early Modern Europe, 1460–1559</em>
-          （中信《现代欧洲史》卷一）。本展只深挖卷一时段，不外推全书。
+          (Chinese ed. published by CITIC as <em>Modern European History</em>, vol. 1). This exhibition digs only into Volume I’s period; it does not extrapolate the whole series.
         </p>
         <p class="end-block-text">
-          政治厅主视觉为网页探光交互；TouchDesigner 工程仍可用于当面实时演示。
-          军事厅含对撞局与「王国的账本」两层短交互，不以杀敌计分。
+          Politics Hall’s main visual is a web flashlight interaction; the TouchDesigner project remains available for live demos in person.
+          Military Hall includes Clash and The King’s Ledger—two short layers of interaction, not scored by kills.
         </p>
       </section>
 
       <section class="end-block" aria-labelledby="end-images-title">
-        <h2 id="end-images-title" class="end-block-title">图像与署名</h2>
+        <h2 id="end-images-title" class="end-block-title">Images and credits</h2>
         <p class="end-block-text">
-          下列为已验链的 Wikimedia Commons 主图（须署名许可已标在出处栏）。
-          军事小游戏立绘为展览自制示意图，非历史原件。
+          Below are verified Wikimedia Commons lead images (attribution licenses appear in the credit column).
+          Military minigame character art is exhibition-made schematic imagery, not historical originals.
         </p>
         <ul class="end-credit-list">
           ${rows}
@@ -278,52 +278,52 @@ function endView() {
       </section>
 
       <div class="actions end-actions">
-        <a class="btn" href="#/gate">回大门</a>
-        <a class="btn btn-ghost" href="#/">回封面</a>
+        <a class="btn" href="#/gate">Back to the Gate</a>
+        <a class="btn btn-ghost" href="#/">Back to cover</a>
       </div>
-      <p class="credit">早期现代欧洲的建立 · 1460–1559 · 线上短展</p>
+      <p class="credit">The Foundations of Early Modern Europe · 1460–1559 · short online exhibition</p>
     </main>
   `;
 }
 
 function coverView() {
   return `
-    <main class="screen cover" aria-label="展览封面">
+    <main class="screen cover" aria-label="Exhibition cover">
       <p class="eyebrow">Online Exhibition</p>
-      <h1 class="display">早期现代欧洲的建立 · 1460–1559</h1>
-      <p class="lede">印刷、火药、商人资本与主权国家同时到场——一场可在一刻钟内走完的线上短展。</p>
+      <h1 class="display">The Foundations of Early Modern Europe · 1460–1559</h1>
+      <p class="lede">Print, gunpowder, merchant capital, and the sovereign state arrive together—a short online exhibition you can walk in about fifteen minutes.</p>
       <div class="actions">
-        <a class="btn" href="#/gate">进入大门</a>
+        <a class="btn" href="#/gate">Enter the Gate</a>
       </div>
-      <p class="credit">尤金·赖斯、安东尼·格拉夫顿《现代欧洲史 01》</p>
+      <p class="credit">Eugene F. Rice Jr. and Anthony Grafton, The Foundations of Early Modern Europe, 1460–1559</p>
     </main>
   `;
 }
 
 function gateView() {
   return `
-    <main class="screen gate" aria-label="展览大门">
-      <p class="eyebrow">Gate · 三厅入口</p>
-      <h1 class="display">选择一厅进入</h1>
+    <main class="screen gate" aria-label="Exhibition gate">
+      <p class="eyebrow">Gate · Three hall entrances</p>
+      <h1 class="display">Choose a hall to enter</h1>
       <div class="doors">
         <a class="door" href="#/politics">
-          <h2>政治厅</h2>
-          <p>查理五世（查理一世）的复合帝国：主权如何在西班牙基座与多块领地上被「看见」</p>
-          <span class="meta">约 3–4 分钟</span>
+          <h2>Politics Hall</h2>
+          <p>Charles V (Charles I)’s composite empire: how sovereignty was “seen” on a Spanish base and across many territories</p>
+          <span class="meta">About 3–4 minutes</span>
         </a>
         <a class="door" href="#/economy">
-          <h2>经济厅</h2>
-          <p>商人—银行家如何把矿冶与信贷接到帝选</p>
-          <span class="meta">约 3–4 分钟</span>
+          <h2>Economy Hall</h2>
+          <p>How merchant-bankers wired mining and credit into the imperial election</p>
+          <span class="meta">About 3–4 minutes</span>
         </a>
         <a class="door is-featured" href="#/military">
-          <h2>军事厅</h2>
-          <p>火药与步兵如何让战争归国王</p>
-          <span class="meta">约 3–4 分钟 · 对撞 + 账本</span>
+          <h2>Military Hall</h2>
+          <p>How gunpowder and infantry made war the king’s business</p>
+          <span class="meta">About 3–4 minutes · Clash + Ledger</span>
         </a>
       </div>
       <p class="gate-end-link">
-        <a class="link-back" href="#/end">三厅看完了？→ 结束页 · 致谢与图注</a>
+        <a class="link-back" href="#/end">Finished all three halls? → Closing page · Acknowledgements & image credits</a>
       </p>
     </main>
   `;
@@ -333,7 +333,7 @@ function gateView() {
 function mediaHtml(slide) {
   if (Array.isArray(slide.images) && slide.images.length) {
     return `
-      <div class="wall-slide-compare" role="group" aria-label="双像对照">
+      <div class="wall-slide-compare" role="group" aria-label="Paired images for comparison">
         ${slide.images
           .map(
             (img) => `
@@ -361,7 +361,7 @@ function slideHtml(slide, index, total, timeline) {
   const line =
     timeline ||
     slide.timeline ||
-    "1460 · 1494 入意 · 1519 查理五世当选 · 1559 收束";
+    "1460 · 1494 into Italy · 1519 Charles V elected · 1559 closing";
   return `
     <article class="wall-slide${index === 0 ? " is-active" : ""}${compareClass}" data-slide="${index}" ${index === 0 ? "" : "hidden"}>
       <div class="wall-slide-top">
@@ -395,18 +395,18 @@ function wallHtml(theme) {
         ${slides}
       </div>
       <div class="wall-carousel-nav">
-        <button type="button" class="wall-nav-btn" data-dir="-1" aria-label="上一张">‹</button>
-        <div class="wall-dots" role="tablist" aria-label="读墙切换">
+        <button type="button" class="wall-nav-btn" data-dir="-1" aria-label="Previous slide">‹</button>
+        <div class="wall-dots" role="tablist" aria-label="Reading wall navigation">
           ${theme.slides
             .map(
               (_, i) =>
-                `<button type="button" class="wall-dot${i === 0 ? " is-active" : ""}" data-goto="${i}" aria-label="第 ${i + 1} 屏"></button>`
+                `<button type="button" class="wall-dot${i === 0 ? " is-active" : ""}" data-goto="${i}" aria-label="Screen ${i + 1}"></button>`
             )
             .join("")}
         </div>
-        <button type="button" class="wall-nav-btn" data-dir="1" aria-label="下一张">›</button>
+        <button type="button" class="wall-nav-btn" data-dir="1" aria-label="Next slide">›</button>
       </div>
-      <p class="wall-carousel-hint">左右滑动：标题、正文与配图整屏切换</p>
+      <p class="wall-carousel-hint">Swipe left or right: title, text, and image change together</p>
     </div>
   `;
 }
@@ -508,32 +508,32 @@ function bindPolitics(root) {
 /** 政治厅探光：四领地卡片文案（基本情况 + 查理如何得到） */
 const empireCards = {
   iberia: {
-    title: "伊比利亚：卡斯蒂利亚—阿拉贡基座",
+    title: "Iberia: the Castile–Aragon base",
     about:
-      "这里是西班牙诸王国的核心：卡斯蒂利亚提供人口与税收，阿拉贡连接地中海航线与意大利据点。它不是一块涂成同色的「民族国家」，而是多套法律、议会（Cortes）与习惯叠在同一君主名下。",
+      "Here is the core of the Spanish kingdoms: Castile supplied people and taxes; Aragon linked Mediterranean routes and Italian footholds. It was not one nation-state painted a single color, but many laws, Cortes, and customs stacked under one monarch’s name.",
     how:
-      "查理通过母系继承进入西班牙：外祖母伊莎贝拉与外祖父斐迪南联姻之后，胡安娜一系把卡斯蒂利亚与阿拉贡的王冠传到他手里。他在此称西班牙的查理一世——先要学会用当地语言与制度做「只属于这里的国王」。",
+      "Charles entered Spain through maternal inheritance: after Isabella and Ferdinand’s marriage, Joanna’s line carried the crowns of Castile and Aragon to him. Here he was Charles I of Spain—first learning to be “king of this place alone” in local language and institutions.",
   },
   low: {
-    title: "低地：城市、港口与勃艮第遗产",
+    title: "The Low Countries: cities, ports, and the Burgundian inheritance",
     about:
-      "尼德兰诸省城市密集，安特卫普一带的贸易、汇票与港口税收，是把西班牙基座推上欧洲棋盘的另一只手。城市特权牢固，君主不能把这里当成随便征税的空白纸。",
+      "The Netherlandish provinces were dense with cities; trade, bills of exchange, and port taxes around Antwerp were the other hand that pushed the Spanish base onto Europe’s board. Urban privileges were firm; a monarch could not treat this land as blank paper for arbitrary taxation.",
     how:
-      "这块领地主要来自父系：腓力带来的勃艮第公爵遗产。查理在根特长大，对低地礼仪与城市谈判并不陌生；日后他调兵筹饷，也常常要回到这张城市网络上来。",
+      "This territory came mainly through the paternal line: the Burgundian ducal inheritance Philip brought. Charles grew up in Ghent and was no stranger to Low Country etiquette and urban bargaining; when he later raised troops and money, he often had to return to this urban network.",
   },
   italy: {
-    title: "意大利：那不勒斯、西西里与半岛棋局",
+    title: "Italy: Naples, Sicily, and the peninsula game",
     about:
-      "那不勒斯与西西里是阿拉贡旧王冠在半岛的延伸；米兰等地则把哈布斯堡拖进与瓦卢瓦争霸的露天舞台。意大利不再只是「半岛内部事务」，而成了欧洲王权试验火力与财政的棋盘。",
+      "Naples and Sicily were extensions of Aragon’s old crowns on the peninsula; places such as Milan dragged the Habsburgs onto an open stage of rivalry with the Valois. Italy was no longer only “internal peninsula business,” but a chessboard where European kingships tested firepower and finance.",
     how:
-      "南意王冠多随阿拉贡继承落到查理名下；北意据点则更多靠战争、联姻与条约争夺。对展览而言，重点是：他不是「征服了意大利」一笔勾销，而是在多块意大利领地上分别做当地的君主与当事人。",
+      "Southern Italian crowns largely came to Charles with the Aragonese inheritance; northern footholds were contested more by war, marriage, and treaty. For the exhibition the point is: he did not “conquer Italy” in one stroke, but acted as local monarch and party on several Italian territories separately.",
   },
   austria: {
-    title: "奥地利核心：哈布斯堡世袭与帝选门口",
+    title: "Austrian core: Habsburg heredity and the door to imperial election",
     about:
-      "奥地利世袭领地是家族在中欧的老家底，也是神圣罗马帝国政治的入口。维也纳一带提醒观众：同一张脸既要应付西班牙议会，也要应付帝国选侯与德意志诸侯。",
+      "The Austrian hereditary lands were the family’s Central European base and an entry into Holy Roman imperial politics. The Vienna region reminds visitors: the same face had to face Spanish assemblies and imperial electors and German princes alike.",
     how:
-      "这块来自祖父马克西米利安一世一系的哈布斯堡继承。1519 年帝选之后，他才同时成为神罗的查理五世——帝国名义叠在西班牙王冠之上，复合结构至此完整。",
+      "This came from the Habsburg inheritance of Maximilian I’s line. Only after the 1519 imperial election did he also become Charles V of the Holy Roman Empire—imperial title stacked on the Spanish crown, the composite structure complete.",
   },
 };
 
@@ -563,7 +563,7 @@ function bindEmpireFlash(root) {
   ];
 
   const refreshProgress = () => {
-    progress.textContent = `已确认 ${visited.size} / ${targets.length}`;
+    progress.textContent = `Confirmed ${visited.size} / ${targets.length}`;
   };
 
   const tryUnlockTitle = () => {
@@ -679,10 +679,10 @@ function politicsView() {
     .join("");
 
   const zones = [
-    { id: "iberia", label: "伊比利亚", hint: "西南 · 西班牙基座", x: 17.9, y: 73.9 },
-    { id: "low", label: "低地", hint: "北海沿岸 · 城市与港口", x: 34.2, y: 33.3 },
-    { id: "italy", label: "意大利", hint: "半岛 · 那不勒斯一带", x: 45.4, y: 74.3 },
-    { id: "austria", label: "奥地利核心", hint: "中欧 · 维也纳一带", x: 48.7, y: 44.3 },
+    { id: "iberia", label: "Iberia", hint: "Southwest · Spanish base", x: 17.9, y: 73.9 },
+    { id: "low", label: "Low Countries", hint: "North Sea coast · cities & ports", x: 34.2, y: 33.3 },
+    { id: "italy", label: "Italy", hint: "Peninsula · Naples region", x: 45.4, y: 74.3 },
+    { id: "austria", label: "Austrian core", hint: "Central Europe · Vienna region", x: 48.7, y: 44.3 },
   ];
 
   const zoneBtns = zones
@@ -693,7 +693,7 @@ function politicsView() {
         class="flash-zone"
         data-zone="${z.id}"
         style="left:${z.x}%;top:${z.y}%"
-        aria-label="寻找：${z.label}"
+        aria-label="Find: ${z.label}"
         aria-pressed="false"
       ></button>`
     )
@@ -710,14 +710,14 @@ function politicsView() {
     .join("");
 
   return `
-    <main class="screen politics" aria-label="政治厅">
+    <main class="screen politics" aria-label="Politics Hall">
       <div class="politics-top">
-        <a class="link-back" href="#/gate">← 大门</a>
-        <h1 class="display">看见主权</h1>
-        <p class="hall-kicker">查理五世的复合帝国 · 西班牙的查理一世</p>
+        <a class="link-back" href="#/gate">← Gate</a>
+        <h1 class="display">Seeing Sovereignty</h1>
+        <p class="hall-kicker">Charles V’s composite empire · Charles I of Spain</p>
       </div>
       <p class="hall-intro">
-        移动光标探亮四处领地；每照到一处会弹出说明，点「确认」后才能继续。四处都确认后，中央标题缓慢浮现。
+        Move the cursor to light four territories; each find opens a note—tap Confirm before you continue. When all four are confirmed, the central title slowly appears.
       </p>
       <div class="politics-layout">
         <section>
@@ -725,22 +725,22 @@ function politicsView() {
             class="stage flash-stage"
             id="empire-flash"
             role="application"
-            aria-label="复合帝国探光地图"
+            aria-label="Flashlight map of the composite empire"
           >
             <img class="flash-dim" src="/politics/map_empire.png" alt="" draggable="false" />
             <img
               class="flash-lit"
               src="/politics/map_empire.png"
-              alt="查理五世欧洲复合领地示意地图"
+              alt="Schematic map of Charles V’s composite European territories"
               draggable="false"
             />
             <div class="flash-zones" aria-hidden="true">${zoneBtns}</div>
             <p class="flash-title" hidden>One family, many territories</p>
             <div class="flash-hud">
-              <p class="flash-guide">探光寻找 · 读完点确认</p>
+              <p class="flash-guide">Seek with the light · Confirm after reading</p>
               <ul class="flash-legend">${legend}</ul>
-              <p class="flash-progress" id="flash-progress">已确认 0 / 4</p>
-              <p class="flash-done" id="flash-done" hidden>四处领地已点名——同一家族，多块领地。</p>
+              <p class="flash-progress" id="flash-progress">Confirmed 0 / 4</p>
+              <p class="flash-done" id="flash-done" hidden>Four territories named—one family, many territories.</p>
             </div>
             <div
               class="empire-modal"
@@ -751,34 +751,34 @@ function politicsView() {
               aria-labelledby="empire-modal-title"
             >
               <div class="empire-modal-card">
-                <button type="button" class="empire-modal-x" data-close="x" aria-label="关闭">×</button>
+                <button type="button" class="empire-modal-x" data-close="x" aria-label="Close">×</button>
                 <h3 id="empire-modal-title" class="empire-modal-title"></h3>
-                <p class="empire-modal-label">基本情况</p>
+                <p class="empire-modal-label">In brief</p>
                 <p id="empire-modal-about" class="empire-modal-body"></p>
-                <p class="empire-modal-label">查理如何得到它</p>
+                <p class="empire-modal-label">How Charles acquired it</p>
                 <p id="empire-modal-how" class="empire-modal-body"></p>
-                <button type="button" class="btn empire-modal-confirm" data-close="confirm">确认</button>
+                <button type="button" class="btn empire-modal-confirm" data-close="confirm">Confirm</button>
               </div>
             </div>
           </div>
           <p class="stage-note">
-            交互命题：光如何找到权力。四处不是征服进度条，而是复合君主国的点名。
+            Interaction thesis: how light finds power. The four sites are not a conquest progress bar, but a roll call of composite monarchy.
           </p>
         </section>
-        <aside class="captions" aria-label="旁侧展签">
-          <p class="aside-label">点选展签 · 切换读墙</p>
+        <aside class="captions" aria-label="Side captions">
+          <p class="aside-label">Select a caption · switch the reading wall</p>
           ${items}
         </aside>
       </div>
-      <section class="wall" id="reading-wall" aria-live="polite" aria-label="读墙">
+      <section class="wall" id="reading-wall" aria-live="polite" aria-label="Reading wall">
         ${wallHtml(themes[0])}
       </section>
       <footer class="politics-foot">
         <div class="hall-nav">
-          <a class="btn btn-ghost" href="#/gate">← 大门</a>
-          <a class="btn" href="#/economy">下一站 · 经济厅 →</a>
+          <a class="btn btn-ghost" href="#/gate">← Gate</a>
+          <a class="btn" href="#/economy">Next stop · Economy Hall →</a>
         </div>
-        <p class="credit">史实脊柱：尤金·赖斯、安东尼·格拉夫顿《现代欧洲史 01》· 探光交互</p>
+        <p class="credit">Historical spine: Eugene F. Rice Jr. and Anthony Grafton, The Foundations of Early Modern Europe · flashlight interaction</p>
       </footer>
     </main>
   `;
@@ -792,58 +792,58 @@ function politicsView() {
 const militaryThemes = [
   {
     id: "art",
-    title: "战争艺术改写",
+    title: "The art of war rewritten",
     teaser:
-      "1450–1550：火药火炮改写战争艺术；其对政治社会的冲击，犹如印刷之于知识生活。",
-    timeline: "1450–1550 · 火药西传 · 印刷并行",
+      "1450–1550: gunpowder artillery rewrote the art of war; its shock to political society was like that of print on the life of the mind.",
+    timeline: "1450–1550 · gunpowder west · print in parallel",
     slides: [
       {
-        title: "同一百年：书页变硬，战场也变硬",
+        title: "The same century: pages harden, battlefields harden",
         paras: [
-          "约 1450 至 1550 这一个世纪，毁灭性技术以前所未有的速度推进。火药与火炮改写了作者所谓的「战争艺术」——不是换几件更锋利的兵器那么简单，而是改变战争如何组织、由谁负担、以何种节奏决定胜负。赖斯与格拉夫顿把这一冲击写得几乎像一条等式：新战争之于政治社会，犹如印刷之于知识生活。同一百年里，知识可以按印张复制，火力也可以被训练、被雇佣、被编成规模；欧洲人开始同时习惯「可流通的书」与「可动员的火」。",
-          "火药西传的线索可溯至 13 世纪。罗吉尔·培根已描述硝石、硫磺与木炭的混合物；真正把它推上欧洲战场的，却是更晚的铸炮、补给与财政能力。技术本身并不自动孵化「现代国家」，但它抬高了开战门槛：谁能持续供应金属、火药、常备步兵与运输，谁才更像战争的主人。于是，「新型战争」与后文的主权集中、商人资本，落在同一条时间线上——本厅要追问的，正是这条线的军事一端：当骑士独斗不再决定大局，谁还能垄断有组织的武力？",
+          "From about 1450 to 1550, destructive technique advanced at unprecedented speed. Gunpowder and cannon rewrote what the authors call the “art of war”—not merely sharper weapons, but a change in how war was organized, who paid for it, and at what tempo victory was decided. Rice and Grafton cast the shock almost as an equation: the new warfare stood to political society as print stood to intellectual life. In the same century, knowledge could be copied sheet by sheet, and firepower could be trained, hired, and scaled; Europeans began to live with both “circulating books” and “mobilizable fire.”",
+          "Gunpowder’s westward path can be traced to the thirteenth century. Roger Bacon already described mixtures of saltpeter, sulfur, and charcoal; what pushed it onto European battlefields was later capacity to cast guns, supply them, and finance them. Technique alone did not hatch the “modern state,” but it raised the threshold for war: whoever could keep supplying metal, powder, standing infantry, and transport looked more like war’s master. Thus “the new warfare” shares a timeline with later concentration of sovereignty and merchant capital—this hall asks the military end of that line: when knightly single combat no longer decided the larger game, who could still monopolize organized force?",
         ],
         src: "/military/armor.jpg",
-        alt: "约 1510–1515 马克西米利安式凹槽甲胄",
-        caption: "甲胄仍在；战场规则已开始松动",
+        alt: "Maximilian-style fluted armor, c.1510–1515",
+        caption: "Armor remains; battlefield rules have begun to loosen",
       },
       {
-        title: "旧语法：人与马一起穿上钢铁",
+        title: "Old grammar: man and horse clad in steel together",
         paras: [
-          "若要看见被改写之前的战争语法，最完整的句子仍是人马合甲：骑士与战马同时裹进钢板，冲击力、血统荣誉与昂贵装备绑成一体。能把这一套武装到如此密度的，几乎只能是宫廷与高贵族。战争因此看起来像一场贵族阶层的特权表演——胜负叙事围绕个人武勇展开，旗帜、纹章与甲胄的反光，比方阵的整齐更抢眼。",
-          "卷一并不宣称甲胄一夜消失。新型战争改写的，是甲胄在战场上的意义。当火炮逼降石墙、长矛方阵挡住骑兵冲击、火绳枪在短暂的装填窗外仍能输出时，单骑决斗不再是决定性语法。甲胄可以仍在博物馆的光里闪光，甚至仍被王室用来夸示威仪；可「谁上得了战场、谁付得起下一场仗」已经换人。旧语法的华丽，恰恰反衬出新语法的冷酷：可训练、可扩编的步兵块，开始压过贵族独斗的舞台。",
+          "To see the grammar of war before it was rewritten, the fullest sentence is still man and horse in full plate: knight and destrier wrapped in steel, impact, blood honor, and costly gear bound as one. Almost only courts and high nobility could arm to such density. War thus looked like a privileged performance of the noble estate—victory narratives turned on personal prowess; banners, arms, and armor’s gleam outshone the pike square’s order.",
+          "Volume I does not claim armor vanished overnight. What the new warfare rewrote was armor’s meaning on the field. When cannon forced stone walls to yield, pike squares stopped cavalry shock, and the arquebus still delivered within its brief loading window, single-combat on horseback ceased to be decisive grammar. Armor could still shine under museum light, even serve royal display; yet “who could take the field, who could afford the next war” had already changed hands. The old grammar’s splendor throws the new grammar’s coldness into relief: trainable, expandable infantry blocks began to outweigh the stage of noble single combat.",
         ],
         src: "/military/man_horse_armor.jpg",
-        alt: "骑士与战马全套板甲陈列",
-        caption: "旧语法：武勇与血统写在钢铁上",
+        alt: "Full plate for knight and horse on display",
+        caption: "Old grammar: prowess and blood written in steel",
       },
       {
-        title: "新画面：矛墙挡住骑士冲锋",
+        title: "New picture: a wall of pikes stops the knight’s charge",
         paras: [
-          "布尔克迈尔一系木刻把新型战争画成拥挤的方阵：长矛如林，骑兵撞进矛墙，旗帜与帐篷挤在同一条地平线上。画面拒绝给个人英雄留特写，却给纪律化步兵留出整片竖直的矛杆——那正是马基雅维利稍后称作军队「实质与力量」的东西。胜负不再取决于某位骑士是否更勇敢，而取决于方阵能否在冲击下站稳、能否把训练变成可重复的秩序。",
-          "读这张图时，请把视线从倒地的马匹移到那些可被计数的矛。它们代表一种可以被雇佣、被君主批量购买、也可以在失败后重新编组的武力。下一主题会先让火炮改写围攻的时间表；真正改写野战的，仍是这种可扩编的步兵块。旧画面里的骑士冲锋，从此必须面对一道不再为血统让路的墙。",
+          "Woodcuts in Burgkmair’s circle paint the new warfare as crowded squares: pikes like a forest, cavalry crashing into the wall, banners and tents sharing one horizon. The image refuses close-ups for individual heroes, yet leaves a whole field of upright shafts for disciplined infantry—what Machiavelli would soon call the army’s “substance and strength.” Victory no longer hung on whether one knight was braver, but on whether the square could stand under shock and turn training into repeatable order.",
+          "Reading this image, shift your eye from fallen horses to those countable pikes. They stand for force that could be hired, bought in bulk by monarchs, and regrouped after defeat. The next theme lets cannon first rewrite siege clocks; what truly rewrote the open field was still this expandable infantry block. The knight’s charge in the old picture thenceforward faced a wall that no longer made way for blood.",
         ],
         src: "/military/burgkmair_battle.jpg",
-        alt: "16 世纪初木刻：长矛方阵与甲骑对冲",
-        caption: "新画面：决定胜负的是方阵，不是单骑",
+        alt: "Early-16th-century woodcut: pike square meeting armored cavalry",
+        caption: "New picture: the square decides, not the single rider",
       },
       {
-        title: "装备换代：从人马全甲到可扩编的半甲",
+        title: "Kit change: from full man-and-horse plate to expandable half-armor",
         paras: [
-          "战争形式一变，装备清单也跟着变。人马合甲是「一人一骑」的奢侈语法：保护周全，却贵、重、难补给。新型步兵战争需要的是另一套账——胸甲、盔、裙甲足以挡刃与矢，手臂与小腿可以让位给机动与造价。半甲不是「甲胄退化」，而是编制逻辑换主：装备要服务于可训练、可替换、可成百上千地上场的人，而不是少数贵族的舞台反光。",
-          "戟、长矛与稍后的火绳枪，进一步把「个人武勇」拆成可传授的动作单元。戟的钩与斧刃对付甲骑，长矛用纵深换生存，火器则要求装填纪律。读完开场军制卡后再看这些物件，会更清楚：所谓战争艺术改写，同时是编制改写与装备改写。",
+          "As forms of war changed, the equipment list changed with them. Full man-and-horse plate was a luxury grammar of “one man, one mount”: thorough protection, yet costly, heavy, and hard to supply. New infantry war needed another ledger—breastplate, helm, and tassets enough against blade and shaft, while arms and legs could yield to mobility and price. Half-armor was not “armor in decline,” but a shift in organizational logic: kit served people who could be trained, replaced, and fielded by the hundreds or thousands, not the stage gleam of a few nobles.",
+          "Halberd, pike, and later the arquebus further broke “personal prowess” into teachable units of action. The halberd’s hook and axe-blade met armored cavalry; the pike traded depth for survival; firearms demanded loading discipline. After the opening military cards, these objects read more clearly: rewriting the art of war was rewriting both organization and kit.",
         ],
-        caption: "左：矛兵半甲 · 右：约 1520 戟",
+        caption: "Left: pikeman’s half-armor · Right: halberd, c.1520",
         images: [
           {
             src: "/military/pike_armor.jpg",
-            alt: "矛兵半甲",
-            label: "半甲：批量与机动优先",
+            alt: "Pikeman’s half-armor",
+            label: "Half-armor: bulk and mobility first",
           },
           {
             src: "/military/halberd_1520.jpg",
-            alt: "约 1520 戟",
-            label: "戟：步兵对付甲骑的工具",
+            alt: "Halberd, c.1520",
+            label: "Halberd: infantry tool against armored cavalry",
           },
         ],
       },
@@ -851,109 +851,109 @@ const militaryThemes = [
   },
   {
     id: "cannon",
-    title: "炮与要塞失效",
+    title: "Cannon and the failure of fortresses",
     teaser:
-      "堡垒闻炮即降，围攻被重新计时；但野战改变的主因，仍是步兵及其轻便武器。",
-    timeline: "1326 见炮 · 1453 破城 · 1449–50 围攻潮",
+      "Fortresses fell at the sound of guns; sieges were retimed—yet the main cause of change in the open field remained infantry and its lighter weapons.",
+    timeline: "1326 guns appear · 1453 walls breached · 1449–50 siege wave",
     slides: [
       {
-        title: "巨炮入画：火力成为风景的一部分",
+        title: "Great guns enter the picture: firepower as part of the landscape",
         paras: [
-          "14 世纪初，欧亚各自摸索火器。约 1326 年，佛罗伦萨与英格兰的文献里已出现火炮或火罐——它们还笨重、还罕见，却证明火药已进入欧洲人的战争词汇。1453 年君士坦丁堡，穆罕默德二世的巨炮轰开城墙：那座长期象征「不可破」的石城在火器面前碎裂，给整个基督教世界留下震动。围攻不再只靠围困与挖掘，也可以靠把金属与火药推到墙根。",
-          "丢勒 1518 年的蚀刻《有大炮的风景》，把一门笨重的攻城炮摆进开阔地平线。炮架、轮辐与旁观人群说明：火器不再是偶发奇物，而已进入欧洲人观看战争的日常图像。对读者而言，这张图的用处不是炫技，而是让「围攻将被重新计时」这件事变得可见——下一帖里，查理七世几乎一年六十次的围攻，正是同一逻辑的加速版。",
+          "In the early fourteenth century, Eurasia groped toward firearms. By about 1326, Florentine and English sources already mention cannon or fire-pots—still clumsy and rare, yet proof that gunpowder had entered Europeans’ vocabulary of war. At Constantinople in 1453, Mehmed II’s great guns broke the walls: a stone city long symbolic of the “unbreakable” shattered before firearms and shook Christendom. Siege no longer rested only on starvation and mining; metal and powder could be pushed to the foot of the wall.",
+          "Dürer’s 1518 etching Landscape with a Cannon sets a heavy siege piece into an open horizon. Carriage, wheel rims, and onlookers show firearms were no longer odd rarities, but part of how Europeans pictured war. For readers the point is not virtuosity, but making visible that “sieges would be retimed”—Charles VII’s roughly sixty sieges in a single year, in the next panel, is that logic accelerated.",
         ],
         src: "/military/cannon.jpg",
-        alt: "丢勒 1518《有大炮的风景》蚀刻",
-        caption: "1518：大炮进入欧洲人的战争风景",
+        alt: "Dürer, Landscape with a Cannon, etching, 1518",
+        caption: "1518: cannon enters Europeans’ landscape of war",
       },
       {
-        title: "堡垒失火：中世纪安全感碎裂",
+        title: "Fortresses on fire: medieval security cracks",
         paras: [
-          "查理七世在 1449 至 1450 约一年内完成约六十次围攻。堡垒闻炮即降——中世纪石墙给人的安全感，在此碎裂得格外具体。要塞并非一夜消失，而是突然变得昂贵、易伤、必须改建：更厚的墙、土坡、削角的棱堡，都是对火炮的迟到回应。战争的空间语法变了：城墙不再是「扛得住就赢」的绝对尺度，而变成一场与火药赛跑的工程与财政竞赛。",
-          "可是作者立刻按下刹车。文艺复兴火炮机动差、不准、火力有限；把「战争艺术改写」全部归给巨炮，会漏掉卷一的关键转折。炮确实改写了围攻，使石墙的时代结束得更快；野战改变的主因，却仍不是炮，而是步兵及其轻便武器。若只看见燃烧的城塞，看不见方阵里的人，就会把军事革命读成一门巨炮的独角戏。",
+          "Charles VII completed some sixty sieges in about a year, 1449–1450. Fortresses fell at the sound of guns—medieval stone walls’ sense of security cracked with special clarity. Fortresses did not vanish overnight; they suddenly became costly, vulnerable, and in need of rebuilding: thicker walls, earthworks, and angled bastions were belated answers to cannon. War’s spatial grammar changed: the wall was no longer an absolute scale of “hold and win,” but an engineering and fiscal race against gunpowder.",
+          "Yet the authors hit the brakes at once. Renaissance cannon was poorly mobile, inaccurate, and limited in firepower; blaming the whole “rewriting of the art of war” on great guns misses Volume I’s key turn. Cannon did rewrite sieges and ended the age of stone walls faster; the main cause of change in the open field was still not the gun, but infantry and its lighter weapons. See only burning strongholds and miss the people in the square, and you read military revolution as a great-gun solo.",
         ],
         src: "/military/siege_durer.jpg",
-        alt: "早期近代战图：矛阵、炮列与燃烧的要塞",
-        caption: "围攻变快；野战仍要另找主因",
+        alt: "Early modern battle scene: pike, guns, and a burning fortress",
+        caption: "Sieges sped up; the open field still needs another cause",
       },
       {
-        title: "野战的实质：步兵，而非巨炮独角戏",
+        title: "Substance of the field: infantry, not a great-gun solo",
         paras: [
-          "马基雅维利谈论军队时，把「实质与力量」落到步兵身上。持矛与火绳枪的人，比贵族马背更能决定一场野战的走向。半甲步兵的装备正体现这种转变：它保护躯干与头，却不再追求人马全甲的贵族华丽——造价、机动与批量装备，压过了骑士剧场。战争开始像一门可以扩编的组织技术，而不只是血统的公开演示。",
-          "至约 1530 年，这一趋势已能用比例说出来：法军骑兵约仅十一分之一，西军约十二分之一。战争越来越像平民步兵的搏斗。炮让城墙变脆；步兵让战场换人。下一主题将把这种「实质」拆成可操作的咬合——矛线挡住骑兵，火枪在装填窗外输出——并把它推到莫拉特与帕维亚那样足以改写政治想象的尺度。",
+          "When Machiavelli spoke of armies, he put “substance and strength” on the infantry. Men with pike and arquebus decided open-field outcomes more than nobles on horseback. Half-armored infantry kit embodies the shift: it protects trunk and head without chasing the noble splendor of full man-and-horse plate—cost, mobility, and bulk equipment outweighed the knightly theater. War began to look like expandable organizational technique, not only a public display of blood.",
+          "By about 1530 the trend could be stated in ratios: French cavalry about one-eleventh of the force, Spanish about one-twelfth. War looked more and more like commoners’ infantry fighting. Cannon made walls brittle; infantry changed who fought. The next theme breaks this “substance” into workable bite—pike lines stop cavalry, shot delivers within the loading window—and pushes it to the scale of Morat and Pavia, enough to rewrite political imagination.",
         ],
         src: "/military/pike_armor.jpg",
-        alt: "约 17 世纪初矛兵半甲：盔、胸甲与裙甲",
-        caption: "野战主角：可批量装备的半甲步兵",
+        alt: "Pikeman’s half-armor, early 17th c.: helm, breastplate, and tassets",
+        caption: "Open-field lead: half-armored infantry that could be equipped in bulk",
       },
       {
-        title: "两种战争形式：围攻时钟与野战场",
+        title: "Two forms of war: siege clocks and the open field",
         paras: [
-          "新型战争其实并排跑着两套形式。围攻战里，重炮、运输与时间压力改写城堡政治：谁能把巨炮推到墙根，谁就能缩短「饿城」的漫长等待。野战里，决定因素却更常是步兵块的纪律与轻便火器——炮仍可出场，却很难单独扮演主角。把两种形式混成一句「火枪取代一切」，会同时看错围攻与野战。",
-          "装备上也要分开看：攻城需要吞金属的重管与稳固炮架；野战更吃机动、装填与阵型咬合。丢勒画中的大炮提醒围攻风景；半甲与长矛提醒野战风景。开场小游戏里「轰墙」与「挡冲」分属两幕，正是为了让这两种形式先在手里分开。",
+          "The new warfare in fact ran two forms side by side. In siege war, heavy guns, transport, and time pressure rewrote castle politics: whoever could push great guns to the wall could shorten the long wait of starving a town. In the open field, the deciding factors were more often infantry discipline and lighter firearms—cannon could still appear, but rarely starred alone. Mixing both into one slogan—“the gun replaces everything”—misreads siege and field at once.",
+          "Kit, too, must be read apart: siege swallowed metal in heavy barrels and steady carriages; the field ate mobility, loading, and interlocking formations. Dürer’s cannon recalls the siege landscape; half-armor and pike recall the field. In the opening game, “breach the wall” and “stop the charge” belong to two acts so these forms first separate in the hand.",
         ],
         src: "/military/cannon.jpg",
-        alt: "丢勒《有大炮的风景》",
-        caption: "围攻靠重炮计时；野战另有步兵语法",
+        alt: "Dürer, Landscape with a Cannon",
+        caption: "Sieges timed by heavy guns; the field has another infantry grammar",
       },
     ],
   },
   {
     id: "pike",
-    title: "矛线、火枪与王权",
+    title: "Pike line, shot, and kingship",
     teaser:
-      "莫拉特之后：纪律化步兵压过骑士冲击；战争同时王权化与平民化。",
-    timeline: "1476 莫拉特 · 1525 帕维亚 · 1524 巴亚尔",
+      "After Morat: disciplined infantry outweighed the knightly charge; war became both more royal and more common.",
+    timeline: "1476 Morat · 1525 Pavia · 1524 Bayard",
     slides: [
       {
-        title: "1476 莫拉特：被讥讽的农民挡住骑士",
+        title: "1476 Morat: mocked peasants stop the knights",
         paras: [
-          "瑞士长矛阵可攻可守。米兰使节曾轻蔑称这些人为「吃奶酪与酸奶的粗鄙农民」——讥讽本身就是史料：旧精英仍想用血统与礼仪语言理解胜负，却读不懂纪律化步兵的逻辑。1476 年莫拉特，正是这种误读的战场版：勃艮第骑士的冲击撞上瑞士矛墙，被讥讽的一方赢得了结构性胜利。莫拉特不是「农民奇迹」，而是训练、阵型与武器组合对贵族冲锋语法的改写。",
-          "戟与长矛同属这套步兵工具箱：钩、劈、刺用来对付甲骑，方阵纪律用来换取存活。当骑兵发现自己再也无法单凭勇气撕开矛林，战争的主角便从马背滑向地面。卷一把这一幕写进新型战争的中段，是为了让读者看见：取代骑士的，不是抽象的「进步」，而是一种可以被复制的步兵秩序。",
+          "Swiss pike could attack or hold. A Milanese envoy once scorned them as “coarse peasants who eat cheese and curds”—the sneer itself is evidence: old elites still tried to read victory in the language of blood and etiquette, and could not grasp disciplined infantry’s logic. Morat in 1476 was that misreading on the field: Burgundian knightly shock met the Swiss pike wall, and the mocked side won a structural victory. Morat was no “peasant miracle,” but training, formation, and weapon combination rewriting the grammar of noble charge.",
+          "Halberd and pike belonged to the same infantry toolbox: hook, chop, and thrust against armored cavalry; square discipline bought survival. When cavalry found courage alone could no longer tear the pike forest, war’s lead slipped from horseback to the ground. Volume I places this scene mid-way through the new warfare so readers see: what replaced the knight was not abstract “progress,” but a reproducible infantry order.",
         ],
         src: "/military/morat.jpg",
-        alt: "16 世纪初木刻：长矛方阵挡住甲骑冲锋",
-        caption: "莫拉特：矛墙改写谁能赢",
+        alt: "Early-16th-century woodcut: pike square stopping armored cavalry",
+        caption: "Morat: the pike wall rewrites who can win",
       },
       {
-        title: "矛线咬合火枪：装填窗必须被保护",
+        title: "Pike bites with shot: the loading window must be guarded",
         paras: [
-          "火绳枪提高了步兵的杀伤距离，也带来新的脆弱：装填窗口里，火枪手几乎无法独自面对骑兵冲击。没有长矛保护，火力再高也站不稳。于是矛线与火枪必须咬合——高输出与高风险是同一枚硬币。戟提醒我们，步兵武器本就在「对付甲骑」；火器只是把同一问题推到更远的射程，并要求更严格的阵型配合。",
-          "约 1521 年，西班牙改进火器；1525 年帕维亚，佩斯卡拉侯爵等步炮协同作战，法兰西国王弗朗索瓦一世被俘。国王可以成为俘虏，说明新型战争已把「君主本人」拖进步兵与火力的射程——这既是战术事件，也是政治象征。战场上的咬合，开始改写宫廷里对荣誉、勇气与王权安全的想象。",
+          "The arquebus lengthened infantry’s killing range and brought new fragility: in the loading window, shot could scarcely face cavalry alone. Without pike cover, even high firepower could not stand. So pike line and shot had to bite together—high output and high risk were one coin. The halberd reminds us infantry weapons were already about “meeting armored cavalry”; firearms only pushed the same problem to longer range and demanded stricter formation.",
+          "Around 1521 Spain improved firearms; at Pavia in 1525, the Marquis of Pescara and others coordinated infantry and guns, and King Francis I of France was captured. That a king could become a prisoner shows the new warfare had dragged “the monarch himself” into infantry and fire’s range—a tactical event and a political symbol. Bite on the field began to rewrite court imaginings of honor, courage, and royal safety.",
         ],
-        caption: "左：欧洲轮簧枪 · 右：约 1520 戟",
+        caption: "Left: European wheellock · Right: halberd, c.1520",
         images: [
           {
             src: "/military/wheellock_rifle.jpg",
-            alt: "约 1618 德意志轮簧步枪",
-            label: "火器：高输出，装填窗脆弱",
+            alt: "German wheellock rifle, c.1618",
+            label: "Firearms: high output, fragile loading window",
           },
           {
             src: "/military/halberd_1520.jpg",
-            alt: "约 1520 戟头",
-            label: "步兵：对付甲骑的钩与刺",
+            alt: "Halberd head, c.1520",
+            label: "Infantry: hook and thrust against armored cavalry",
           },
         ],
       },
       {
-        title: "双重后果：归国王，也归平民",
+        title: "Double consequence: to the king, and to commoners",
         paras: [
-          "铸炮吞金属。矿冶排水、水力鼓风等技术，支撑约 1460 至 1530 年间铁产量的跃升——没有这套工业底座，新型战争很难持续。新武器因而利于能扩张领土、能持续征税、能供养常备武力的统治者：战争王权化，帮助君主垄断有组织武力，巩固主权领土国家。亨利八世式的王室甲胄仍可炫耀威仪，但支撑「下一场仗」的，是财政与矿冶，而非单套甲的华丽。",
-          "同一套技术也让战争平民化。贵族感叹「懦夫」可射杀勇士；阿里奥斯托诅咒火枪夺去荣誉；巴亚尔骑士于 1524 年死于枪伤，被书中用作骑士时代象征性的终结。武器使战争成为君主与平民的工具，从而改写欧洲权力格局。读墙到此收束：炮让城墙变脆，矛与火枪让战场换人；武力既向国王集中，也向持枪的平民敞开——开场军制卡已让你先摸过这套结构。",
+          "Casting guns swallowed metal. Techniques such as mine drainage and hydraulic blast underwrote a leap in iron output about 1460–1530—without that industrial base, the new warfare could scarcely last. New weapons thus favored rulers who could expand territory, tax continuously, and sustain standing force: war’s royalization helped monarchs monopolize organized force and consolidate the sovereign territorial state. Henry VIII–style royal armor could still parade majesty, but what underwrote “the next war” was finance and mining, not the splendor of a single suit.",
+          "The same technique also made war more common. Nobles lamented that “cowards” could shoot down the brave; Ariosto cursed the gun for stealing honor; the knight Bayard died of a gunshot in 1524, used in the book as a symbolic end of the chivalric age. Weapons made war a tool of monarch and commoner alike, rewriting Europe’s power map. The reading wall closes here: cannon made walls brittle; pike and shot changed who fought; force concentrated toward the king and opened to common hands that held guns—the opening military cards already let you feel that structure.",
         ],
         src: "/military/armor_henry.jpg",
-        alt: "亨利八世战甲：王室甲胄仍炫耀威仪",
-        caption: "收束：战争同时王权化与平民化",
+        alt: "Henry VIII’s field armor: royal plate still displays majesty",
+        caption: "Closing: war becomes both more royal and more common",
       },
       {
-        title: "编制合成：矛、火、炮如何变成一套战争",
+        title: "Combined arms: how pike, shot, and gun become one war",
         paras: [
-          "到意大利战争语境里，胜负越来越不像「选出一种最强兵器」，而像「把几种兵器编成不会互相拆台的顺序」。长矛负责抗冲击，火绳枪负责在保护下输出，炮在围攻或侧翼改写节奏；缺一环，整条链会在某个窗口崩掉。西班牙改进火器之后的帕维亚，把这种合成推到俘虏国王的尺度——那是编制成功的政治戏剧，不是某支枪的神话。",
-          "因此读墙收束处要回到开场小游戏：初局先认「怎么打」；读完装备与形式后，进阶局改问「谁付得起下一仗」——铸炮、雇佣与借贷。能把炮与步兵持续编起来的力量，最终偏向王权；而火器本身又把杀伤交给更多非贵族的手——双重后果，写在同一套装备更新里。",
+          "In the Italian Wars, victory looked less like “picking the strongest weapon” and more like “ordering several weapons so they did not undo each other.” Pike resisted shock; arquebus delivered under cover; cannon rewrote tempo in siege or on the flank—lose one link and the chain broke at some window. Pavia after Spanish firearm improvements pushed that synthesis to the scale of capturing a king—political drama of successful organization, not the myth of one gun.",
+          "So the reading wall’s close returns to the opening game: first recognize “how to fight”; after kit and form, the advanced game asks “who can afford the next war”—casting, hire, and borrowing. Power that could keep guns and infantry combined tilted toward kingship; firearms themselves also put killing into more non-noble hands—the double consequence written in the same kit update.",
         ],
         src: "/military/armor_henry.jpg",
-        alt: "亨利八世战甲",
-        caption: "装备更新之后：编制权归谁，战场向谁敞开",
+        alt: "Henry VIII’s field armor",
+        caption: "After the kit update: who holds organization, whom the field opens to",
       },
     ],
   },
@@ -981,39 +981,39 @@ function militaryView() {
     .join("");
 
   return `
-    <main class="screen economy military is-game-first" aria-label="军事厅">
+    <main class="screen economy military is-game-first" aria-label="Military Hall">
       <div class="politics-top mil-game-top">
-        <a class="link-back" href="#/gate">← 大门</a>
-        <h1 class="display">新型战争</h1>
+        <a class="link-back" href="#/gate">← Gate</a>
+        <h1 class="display">The New Warfare</h1>
       </div>
       ${militaryGameBayHtml()}
       <div id="mil-content" class="mil-content" hidden>
-        <p class="aside-label mil-read-label" id="mil-read-anchor">读墙</p>
+        <p class="aside-label mil-read-label" id="mil-read-anchor">Reading wall</p>
         <div class="econ-layout">
-          <aside class="econ-path" aria-label="军事厅主题路径">
-            <p class="aside-label">主题</p>
+          <aside class="econ-path" aria-label="Military Hall theme path">
+            <p class="aside-label">Themes</p>
             ${nodes}
-            <p class="econ-progress" id="mil-progress" aria-live="polite">已探访 1 / ${total}</p>
+            <p class="econ-progress" id="mil-progress" aria-live="polite">Visited 1 / ${total}</p>
           </aside>
-          <section class="wall econ-wall" id="mil-wall" aria-live="polite" aria-label="军事厅读墙">
+          <section class="wall econ-wall" id="mil-wall" aria-live="polite" aria-label="Military Hall reading wall">
             ${wallHtml(militaryThemes[0])}
           </section>
         </div>
         <div class="econ-arrival" id="mil-arrival" hidden>
-          <p class="econ-arrival-title">到站 · 3 / 3</p>
-          <p class="econ-arrival-text">长文读完。可进入第二局「战争与经济」，或结束整场展览。</p>
+          <p class="econ-arrival-title">Arrival · 3 / 3</p>
+          <p class="econ-arrival-text">Essay complete. You may enter Game II · War and Economy, or close the whole exhibition.</p>
           <div class="hall-nav">
-            <button class="btn" type="button" data-open-ledger>第二局 · 战争与经济</button>
-            <a class="btn" href="#/end">结束展览 →</a>
-            <a class="btn btn-ghost" href="#/economy">← 经济厅</a>
-            <button class="btn btn-ghost" type="button" data-scroll-game>回对撞局 ↑</button>
-            <a class="btn btn-ghost" href="#/gate">回大门</a>
+            <button class="btn" type="button" data-open-ledger>Game II · War and Economy</button>
+            <a class="btn" href="#/end">Close the exhibition →</a>
+            <a class="btn btn-ghost" href="#/economy">← Economy Hall</a>
+            <button class="btn btn-ghost" type="button" data-scroll-game>Back to Clash ↑</button>
+            <a class="btn btn-ghost" href="#/gate">Back to the Gate</a>
           </div>
         </div>
-        <section class="mil-ledger-bay" id="mil-ledger-bay" aria-label="第二局 · 战争与经济">
-          <p class="aside-label mil-ledger-label">第二局 · 战争与经济</p>
-          <h2 class="mil-ledger-title">王国的账本</h2>
-          <p class="mil-ledger-lead">对撞局之后：五波编制与国库。通关对撞局后可从上方按钮进入。</p>
+        <section class="mil-ledger-bay" id="mil-ledger-bay" aria-label="Game II · War and Economy">
+          <p class="aside-label mil-ledger-label">Game II · War and Economy</p>
+          <h2 class="mil-ledger-title">The King's Ledger</h2>
+          <p class="mil-ledger-lead">After Clash: five waves of organization and treasury. Enter from the button above once Clash is cleared.</p>
           <div class="mil-play-stage led-review-stage" data-led-stage aria-live="polite"></div>
         </section>
         <div
@@ -1025,18 +1025,18 @@ function militaryView() {
           aria-labelledby="mil-recommend-title"
         >
           <div class="mil-recommend-card">
-            <button type="button" class="mil-recommend-x" data-mil-rec-close aria-label="关闭">×</button>
-            <p class="aside-label">读墙完成</p>
-            <h3 id="mil-recommend-title" class="mil-recommend-title">要不要开第二局？</h3>
-            <p class="mil-recommend-text">厅内长文已看完。可玩「战争与经济」，用编制与国库续写新型战争。</p>
+            <button type="button" class="mil-recommend-x" data-mil-rec-close aria-label="Close">×</button>
+            <p class="aside-label">Reading wall complete</p>
+            <h3 id="mil-recommend-title" class="mil-recommend-title">Open Game II?</h3>
+            <p class="mil-recommend-text">The hall essay is done. You can play War and Economy and continue the new warfare with organization and treasury.</p>
             <div class="mil-recommend-actions">
-              <button type="button" class="btn" data-mil-rec-ledger>进入战争与经济</button>
-              <button type="button" class="btn btn-ghost" data-mil-rec-close>稍后再说</button>
+              <button type="button" class="btn" data-mil-rec-ledger>Enter War and Economy</button>
+              <button type="button" class="btn btn-ghost" data-mil-rec-close>Maybe later</button>
             </div>
           </div>
         </div>
         <footer class="politics-foot">
-          <p class="credit">史实脊柱：尤金·赖斯、安东尼·格拉夫顿《现代欧洲史 01》· 第一章「新型战争」</p>
+          <p class="credit">Historical spine: Eugene F. Rice Jr. and Anthony Grafton, The Foundations of Early Modern Europe · Chapter 1, “The New Warfare”</p>
         </footer>
       </div>
     </main>
@@ -1066,7 +1066,7 @@ function bindMilitary(root) {
   const ensureLedgerMounted = () => {
     if (!ledgerStage || ledgerMounted) return;
     mountLedgerGame(ledgerStage, {
-      backLabel: "回对撞局",
+      backLabel: "Back to Clash",
       onBack: () => {
         root.querySelector("#mil-game-bay")?.scrollIntoView({
           behavior: "smooth",
@@ -1130,7 +1130,7 @@ function bindMilitary(root) {
   };
 
   const refresh = () => {
-    if (progress) progress.textContent = `已探访 ${visited.size} / ${total}`;
+    if (progress) progress.textContent = `Visited ${visited.size} / ${total}`;
     if (visited.size >= total) {
       arrival?.removeAttribute("hidden");
       openRecommend();
@@ -1182,11 +1182,11 @@ function bindMilitary(root) {
 
 function ledgerReviewView() {
   return `
-    <main class="screen ledger-review" aria-label="王国的账本">
+    <main class="screen ledger-review" aria-label="The King's Ledger">
       <div class="politics-top">
-        <a class="link-back" href="#/military">← 军事厅</a>
-        <p class="aside-label">第二局 · 亦可在军事厅末尾游玩</p>
-        <h1 class="display">王国的账本</h1>
+        <a class="link-back" href="#/military">← Military Hall</a>
+        <p class="aside-label">Game II · also playable at the end of Military Hall</p>
+        <h1 class="display">The King's Ledger</h1>
       </div>
       <section class="mil-play-stage led-review-stage" data-led-stage aria-live="polite"></section>
     </main>
@@ -1197,7 +1197,7 @@ function bindLedgerReview(root) {
   const stage = root.querySelector("[data-led-stage]");
   if (!stage) return;
   mountLedgerGame(stage, {
-    backLabel: "回军事厅",
+    backLabel: "Back to Military Hall",
     onBack: () => {
       location.hash = "#/military";
     },
