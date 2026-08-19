@@ -1,0 +1,74 @@
+{
+  "knight": {
+    "walk": [
+      "/military/anim/knight_walk_01.png",
+      "/military/anim/knight_walk_02.png",
+      "/military/anim/knight_walk_03.png",
+      "/military/anim/knight_walk_04.png",
+      "/military/anim/knight_walk_05.png",
+      "/military/anim/knight_walk_06.png"
+    ],
+    "fight": [
+      "/military/anim/knight_fight_01.png",
+      "/military/anim/knight_fight_02.png",
+      "/military/anim/knight_fight_03.png",
+      "/military/anim/knight_fight_04.png",
+      "/military/anim/knight_fight_05.png",
+      "/military/anim/knight_fight_06.png"
+    ]
+  },
+  "pike": {
+    "walk": [
+      "/military/anim/pike_walk_01.png",
+      "/military/anim/pike_walk_02.png",
+      "/military/anim/pike_walk_03.png",
+      "/military/anim/pike_walk_04.png",
+      "/military/anim/pike_walk_05.png",
+      "/military/anim/pike_walk_06.png"
+    ],
+    "fight": [
+      "/military/anim/pike_fight_01.png",
+      "/military/anim/pike_fight_02.png",
+      "/military/anim/pike_fight_03.png",
+      "/military/anim/pike_fight_04.png",
+      "/military/anim/pike_fight_05.png",
+      "/military/anim/pike_fight_06.png"
+    ]
+  },
+  "shot": {
+    "walk": [
+      "/military/anim/shot_walk_01.png",
+      "/military/anim/shot_walk_02.png",
+      "/military/anim/shot_walk_03.png",
+      "/military/anim/shot_walk_04.png",
+      "/military/anim/shot_walk_05.png",
+      "/military/anim/shot_walk_06.png"
+    ],
+    "fight": [
+      "/military/anim/shot_fight_01.png",
+      "/military/anim/shot_fight_02.png",
+      "/military/anim/shot_fight_03.png",
+      "/military/anim/shot_fight_04.png",
+      "/military/anim/shot_fight_05.png",
+      "/military/anim/shot_fight_06.png"
+    ]
+  },
+  "levy": {
+    "walk": [
+      "/military/anim/levy_walk_01.png",
+      "/military/anim/levy_walk_02.png",
+      "/military/anim/levy_walk_03.png",
+      "/military/anim/levy_walk_04.png",
+      "/military/anim/levy_walk_05.png",
+      "/military/anim/levy_walk_06.png"
+    ],
+    "fight": [
+      "/military/anim/levy_fight_01.png",
+      "/military/anim/levy_fight_02.png",
+      "/military/anim/levy_fight_03.png",
+      "/military/anim/levy_fight_04.png",
+      "/military/anim/levy_fight_05.png",
+      "/military/anim/levy_fight_06.png"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+# dependencies & build
+web/node_modules/
+web/dist/
+
+# deploy backups (large unused media)
+_deploy_exclude/
+
+# source PDFs (not needed for the site)
+现代欧洲史【6册】-多人/
+
+# tooling / scratch
+web/_pike_preview/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
